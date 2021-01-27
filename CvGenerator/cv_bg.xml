@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:noNamespaceSchemaLocation="cv.xsd">
+
+	<title>Développeur Java</title>
+	<etatCivil>
+		<nom>Guiral</nom>
+		<prenom>Bertrand</prenom>
+		<telephone>0682426361</telephone>
+		<email>bertrand.guiral@gmail.com</email>
+		<adresse>
+			<ligne1>2 Rue Cariben</ligne1>
+			<ligne2></ligne2>
+			<city>Montpezat de Quercy</city>
+			<zipCode>82270</zipCode>
+			<country>France</country>
+		</adresse>
+		
+	</etatCivil>
+	<formations>
+		<formation>
+			<diplome>Ingénieur</diplome>
+			<school>Sup'aéro</school>
+			<year>1985</year>
+		</formation>
+	</formations>
+	<languages>
+		<language>
+			<name>Anglais</name>
+			<level>3</level>
+		</language>
+	</languages>
+	<skills>
+		<skill>
+			<label>Développeur java </label>
+			<nivel>5</nivel>
+		</skill>
+		<skill>
+			<label>Spring </label>
+			<nivel>5</nivel>
+		</skill>
+		<skill>
+			<label>Hibernate </label>
+			<nivel>5</nivel>
+		</skill>
+		<skill>
+			<label>j2ee </label>
+			<nivel>5</nivel>
+		</skill>
+		<skill>
+			<label>javapoet </label>
+			<nivel>5</nivel>
+		</skill>
+	</skills>
+	<experiences>
+		<experience>
+			<experienceTitre>Concepteur-développeur d'une application Android
+			</experienceTitre>			
+			<dateStart>1/12/2020</dateStart>
+			<dateEnd>31/01/2021</dateEnd>
+			<typeDeContrat>Freelance</typeDeContrat>
+			<lieuGegraphique>
+				<city>Montpezat de Quercy</city>
+				<country>France</country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>Perso</nom>
+				<info></info>
+			</entreprise>
+			<context>Maintenance d'une application que j'ai écrite en 2015.
+			</context>
+			<myGoal>Maitriser la techno android.</myGoal>
+			<tasks>
+				<task>
+					 Réalisation (re-écriture) d'une appli Android, en prenant en compte les évolutions de l'ergonomie conseillée pour les appli(Gestion des annotations )
+				</task>
+			</tasks>
+			<techno>Java, Android, android studio, apis google</techno>
+			
+		</experience>
+
+		<experience>
+			<experienceTitre>Concepteur-développeur J2EE</experienceTitre>
+			<typeDeContrat>Freelance</typeDeContrat>
+			<dateStart>1/02/2019</dateStart>
+			<dateEnd>30/11/2020</dateEnd>
+			<lieuGegraphique>
+				<city>Montauban</city>
+				<country>France</country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>iMsa</nom>
+				<info>Mutuelle Sociale Agricole</info>
+			</entreprise>
+			<context>Gestion des "feuilles maladies" de la sécurité sociale</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>
+					Réalisation d’une application j2ee: Avec les standards iMSA, réalisation d’une application j2ee permettant d’alimenter la GED (Gestion Electronique des Documents)  de MSA par des documents extérieurs.
+				</task>
+				<task>
+					 Maintenance des applications existantes (Migration jboss, Corrections SONAR, corrections applicatives, changement de versions de librairies).
+				</task>
+				<task>
+					Au sein d’une équipe scrum, réalisation d’un POC pour le compte de la CNAM (Caisse Nationale d’Assurance Maladie) permettant le traitement des feuilles d’assurance maladie (Intégration d’un BRMS - Business Rules Management System). Je m’occupais de la partie java.
+
+				</task>
+			</tasks>
+			<techno>java, jboss, maven, jenkins, hibernate, uml, spring</techno>
+		</experience>
+
+
+		<experience>
+			<experienceTitre>Developpeur Concepteur Java</experienceTitre>
+			<typeDeContrat>freeLance</typeDeContrat>
+			<dateStart>1/09/2018</dateStart>
+			<dateEnd>30/12/2018</dateEnd>
+			<lieuGegraphique>
+				<city>Toulouse</city>
+				<country>France</country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>Aéroport de Paris </nom>
+				<info></info>
+			</entreprise>
+			<context>Réalisation d’un POC du Système d’information de l’aéroport de Paris.
+Génération automatique d’une application Spring Boot à partir d’une modélisation uml des données, 
+L’application devait atteindre certains critères de redondances de sécurité (jwt Json Web Token) et être déployé sur AWS (Amazon) .
+L’ensemble (génération de l’appli, instanciation et déploiement ) était automatique.
+Une évaluation des performances a été faites par le client (Changement du modèle de données, performances globales, tests d’intégrations, tableau de bord).</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<techno>Spring boot, javapoet, jackson,acceleo, maven , aws, mariaDB</techno>
+		</experience>
+
+<experience>
+			<experienceTitre>Java Développeur</experienceTitre>
+			<typeDeContrat>freelance</typeDeContrat>
+			<dateStart>1/04/2019</dateStart>
+			<dateEnd>30/08/2019</dateEnd>
+			<lieuGegraphique>
+				<city>Air France</city>
+				<country>France</country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>Air France</nom>
+				<info></info>
+			</entreprise>
+			<context>Participation à la conception et la réalisation d’une application web. J’avais en charge la prise en compte de la partie sécurité (jwt), avec l’intégration dans le système d’authentification de l’entreprise.
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<techno> Spring boot, hibernate, Angular 4, maven, java 8, Swagger, JUnit,  Mockito, Jackson, lombok, scrum
+</techno>
+		</experience>
+
+	
+	
+	<experience>
+			<experienceTitre>Java Développeur</experienceTitre>
+			<typeDeContrat>freelance</typeDeContrat>
+			<dateStart>1/12/2016</dateStart>
+			<dateEnd>1/03/2018</dateEnd>
+			<lieuGegraphique>
+				<city>Montauban</city>
+				<country>France</country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>iMsa</nom>
+				<info></info>
+			</entreprise>
+			<context></context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Retro engineering et portage d'une application (apaplication "Saga") écrite en C  en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de la réalisation industrielle.</task>
+				<task>Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'aspect sécurité et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une exrension chrome et des api citrix.</task>
+			</tasks>
+			<techno>Angular, java, Api citrix, javascript, extension chrome.</techno>
+		</experience>
+		
+		<experience>
+			<experienceTitre>Java Développeur</experienceTitre>
+			<typeDeContrat>freelance</typeDeContrat>
+			<dateStart>1/02/2015</dateStart>
+			<dateEnd>1/09/2016</dateEnd>
+			<lieuGegraphique>
+				<city>Marseille, Aix-en-Provence, Massy, Les Clayes-sous-Bois </city>
+				<country></country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>Bull Atos</nom>
+				<info></info>
+			</entreprise>
+			<context>Pour le compte du ministère de la Défense Nationale , maintenance et évolution de l'application SIGALE (Système d'information, de gestion et d'administration des licences d'exportation). 
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Développement d'un POC pour une nouvelle architecture</task>
+				<task>Maintenance corrective et évolutive</task>
+				<task>Support chez le client , pour investigations</task>
+			</tasks>
+			<techno>Java, J2EE, JSF, Spring, Hibernate, jasper , BPMN</techno>
+		</experience>
+		<experience>
+			<experienceTitre>Java Développeur</experienceTitre>
+			<typeDeContrat>freelance</typeDeContrat>
+			<dateStart>01/08/2012</dateStart>
+			<dateEnd>30/12/2014</dateEnd>
+			<lieuGegraphique>
+				<city>Toulouse</city>
+				<country></country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>Steria</nom>
+				<info></info>
+			</entreprise>
+			<context>Maintenance et évolution d’une application distribuée (java, j2ee, web services, client lourd) de gestions des cartes électroniques dans le milieu spatial.
+
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Mise en place de l'environnement de developpement et d'intégration continue (Steria venant de gagner la maintenance du projet) </task>
+				<task>Maintenance corrective</task>
+			</tasks>
+			<techno> java, j2ee, web services,  swing, jnlp, maven.
+			</techno>
+		</experience>
+		<experience>
+			<experienceTitre>Formateur Génie Logiciel</experienceTitre>
+			<typeDeContrat>freelance</typeDeContrat>
+			<dateStart>1/12/2011</dateStart>
+			<dateEnd>1/07/2012</dateEnd>
+			<lieuGegraphique>
+				<city>Nantes, Lille, PAris, Genève, La Ciotat</city>
+				<country></country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom>Sopra Nantes, Egilia, Boomerang Consulting</nom>
+				<info></info>
+			</entreprise>
+			<context>Pour le compte de divers organismes de formation, j'étais formateur essentiellement en java</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<techno></techno>
+		</experience>
+		<experience>
+			<experienceTitre>Java Développeur</experienceTitre>
+			<typeDeContrat></typeDeContrat>
+			<dateStart>15/10/2011</dateStart>
+			<dateEnd>30/12/2011</dateEnd>
+			<lieuGegraphique>
+				<city>Toulouse</city>
+				<country></country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom> </nom>
+				<info></info>
+			</entreprise>
+			<context>Renfort d’une équipe en phase de livraison. Participation à la réalisation d’ une application embarquée sur des avions de lignes dans différents environnements
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Tuning de la jvm pour rentrer dans les contraintes de production.</task>
+			</tasks>
+			<techno> Java, osgi (plateforme knopflerfish) , jboss,  swing, spring.</techno>
+		</experience>
+		
+		<experience>
+			<experienceTitre>Développeur Java</experienceTitre>
+			<typeDeContrat></typeDeContrat>
+			<dateStart></dateStart>
+			<dateEnd></dateEnd>
+			<lieuGegraphique>
+				<city>Sophia Antipolis</city>
+				<country></country>
+			</lieuGegraphique>
+			<entreprise>
+				<nom> </nom>
+				<info></info>
+			</entreprise>
+			<context>Renfort d’une équipe en phase de livraison. Participation à la réalisation d’ une application embarquée sur des avions de lignes dans différents environnements
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Tuning de la jvm pour rentrer dans les contraintes de production.</task>
+			</tasks>
+			<techno> Java, osgi (plateforme knopflerfish) , jboss,  swing, spring.</techno>
+		</experience>
+	</experiences>
+
+</cv>

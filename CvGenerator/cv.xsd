@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Mon Jan 25 2021 13:01:51 GMT+0100 (heure normale d’Europe centrale) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="cv">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                            <xs:element name="etatCivil">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="nom" type="xs:string"></xs:element>
+                                                 <xs:element name="prenom" type="xs:string"></xs:element>
+                                                 <xs:element name="telephone" type="xs:string"></xs:element>
+                                                <xs:element name="email" type="xs:string"></xs:element>
+                                                 
+                                                 <xs:element name="adresse">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="ligne1" type="xs:string"></xs:element>
+                                                                      <xs:element name="ligne2"></xs:element>
+                                                                      <xs:element name="city" type="xs:string"></xs:element>
+                                                                      <xs:element name="zipCode" type="xs:int"></xs:element>
+                                                                      <xs:element name="country" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="formations">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="formation" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="diplome" type="xs:string"></xs:element>
+                                                                      <xs:element name="school" type="xs:string"></xs:element>
+                                                                      <xs:element name="year" type="xs:int"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="languages">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="language" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="name" type="xs:string"></xs:element>
+                                                                      <xs:element name="level" type="xs:int"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="skills">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="skill" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="label" type="xs:string"></xs:element>
+                                                                      <xs:element name="nivel" type="xs:int"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="experiences">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="experience" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:all>
+                                                                      <xs:element name="experienceTitre" type="xs:string"></xs:element>
+                                                                      <xs:element name="dateStart" type="xs:string"></xs:element>
+                                                                      <xs:element name="dateEnd" type="xs:string"></xs:element>
+                                                                      <xs:element name="typeDeContrat" type="xs:string"></xs:element>
+                                                                      <xs:element name="lieuGegraphique" >
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="city" type="xs:string"></xs:element>
+                                                                                           <xs:element name="country" type="xs:string"></xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                      <xs:element name="entreprise">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="nom" type="xs:string"></xs:element>
+                                                                                           <xs:element name="info" type="xs:string"></xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                      <xs:element name="context" type="xs:string"></xs:element>
+                                                                      <xs:element name="myGoal" type="xs:string"></xs:element>
+                                                                      <xs:element name="tasks">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence maxOccurs="unbounded">
+                                                                                           <xs:element name="task" type="xs:string"> </xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                          <xs:element name="techno" type="xs:string"></xs:element>
+                                                                  </xs:all>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
