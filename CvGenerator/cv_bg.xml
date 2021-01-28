@@ -74,7 +74,7 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 			<myGoal></myGoal>
 			<tasks>
 				<task>
-					 Réalisation (re-écriture) d'une appli Android, en prenant en compte les évolutions de l'ergonomie conseillée pour les applis  embarquées(Gestion des annotations )
+					 Réalisation (réécriture) d'une appli Android, en prenant en compte les évolutions de l'ergonomie conseillée pour les applis  embarquées(Gestion des annotations )
 				</task>
 			</tasks>
 			<techno>Java, Android, android studio, apis google</techno>
@@ -112,7 +112,7 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 
 
 		<experience>
-			<experienceTitre>Developpeur Concepteur Java</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freeLance</typeDeContrat>
 			<dateStart>1/09/2018</dateStart>
 			<dateEnd>30/12/2018</dateEnd>
@@ -121,7 +121,7 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 				<country>France</country>
 			</lieuGeographique>
 			<entreprise>
-				<nom>Aéroport de Paris </nom>
+				<nom>GFI pour Aéroport de Paris </nom>
 				<info></info>
 			</entreprise>
 			<context>Réalisation d’un POC du Système d’information de l’aéroport de Paris.
@@ -177,8 +177,8 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>Retro engineering et portage d'une application  écrite en C  (application "Saga") en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de l'industriallisation.</task>
-				<task>Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'autentification unique et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une extension chrome et des api citrix.</task>
+				<task>Retro engineering et portage d'une application  écrite en C  (application "Saga") en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de l'industrialisation.</task>
+				<task>Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'authentification unique et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une extension chrome et des api citrix.</task>
 			</tasks>
 			<techno>Angular, java, Api citrix, javascript, extension chrome, JNA (Java Native Acces).</techno>
 		</experience>
@@ -193,10 +193,10 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<country></country>
 			</lieuGeographique>
 			<entreprise>
-				<nom>Bull Atos</nom>
+				<nom>Bull Atos pour ministère de la Défense</nom>
 				<info></info>
 			</entreprise>
-			<context>Pour le compte du ministère de la Défense Nationale , maintenance et évolution de l'application SIGALE (Système d'Information, de Gestion et d'Administration des Licences d'Exportation). 
+			<context>Maintenance et évolution de l'application SIGALE (Système d'Information, de Gestion et d'Administration des Licences d'Exportation). 
 			</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -224,7 +224,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			</context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>Mise en place de l'environnement de developpement et d'intégration continue (Steria venait de gagner la maintenance du projet) </task>
+				<task>Mise en place de l'environnement de développement et d'intégration continue (Steria venait de gagner la maintenance du projet) </task>
 				<task>Maintenance corrective</task>
 			</tasks>
 			<techno> java, j2ee, web services,  swing, jnlp, maven.
@@ -306,7 +306,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>Sopra</nom>
 				<info></info>
 			</entreprise>
-			<context>Dans le cadre de la conversion de jeunes diplomés aux métiers du logiciel, formateur pour une session de formation Java/J2EE pour Sopra Nantes</context>
+			<context>Dans le cadre de la conversion de jeunes diplômés aux métiers du logiciel, formateur pour une session de formation Java/J2EE pour Sopra Nantes</context>
 			<myGoal></myGoal>
 			<tasks>
 				<task>Préparation des cours et animation d'un stage de 12 personnes.</task>
@@ -326,7 +326,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>Sopra</nom>
 				<info></info>
 			</entreprise>
-			<context>Renforcement  d’une équipe en phase de livraison d’un projet Spring batch pour la Comission Européenne.</context>
+			<context>Renforcement  d’une équipe en phase de livraison d’un projet Spring batch pour la Commission Européenne.</context>
 			<myGoal></myGoal>
 			<tasks>
 				<task>Investigation et correction d'anomalies</task>
@@ -347,7 +347,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>MPPC Technology</nom>
 				<info></info>
 			</entreprise>
-			<context>MPPC était une startup dans le domaine de l'énergie photovoltaique. Pour extraire le maximum d'energie de panneaux solaire ,un  MPPT (Maximum Power Point Tracking) innovant était proposé. J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.</context>
+			<context>MPPC était une startup dans le domaine de l'énergie photovoltaïque. Pour extraire le maximum d'énergie de panneaux solaires ,un  MPPT (Maximum Power Point Tracking) innovant était proposé. J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.</context>
 			<myGoal></myGoal>
 			<tasks>
 				<task>Conception et réalisation d'une application de monitoring</task>
@@ -355,28 +355,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			</tasks>
 			<techno>Java, spring ,  gwt, appengine</techno>
 		</experience>
-
-		<experience>
-			<experienceTitre>Développement Logiciel</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
-			<dateStart>7/02/2011</dateStart>
-			<dateEnd>1/04/2011</dateEnd>
-			<lieuGeographique>
-				<city>Toulouse</city>
-				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>MPPC Technology</nom>
-				<info></info>
-			</entreprise>
-			<context>MPPC est une startup dans le domaine de l'énergie photovoltaique. Pour extraire le maximum d'energie de panneaux solaire ,un  MPPT (Maximum Power Point Tracking) innovant était proposé.</context>
-			<myGoal>J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.</myGoal>
-			<tasks>
-				<task>Conception et réalisation d'une application de monitoring</task>
-				<task>Participations aux campagnes de mesure et d'étude des performances.</task>
-			</tasks>
-			<techno>Java, spring ,  gwt, appengine</techno>
-		</experience>
+		
 
 		<experience>
 			<experienceTitre>Développeur Java</experienceTitre>
@@ -394,7 +373,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<context>Chargé de la maintenance et des évolutions d’un logiciel de simulation et de commande de crédit bail, puis d’une application de gestion des risques pour la banque Crédit Agricole.</context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>Maintenance et evolution d'un logiciel de simulation et de commande de crédit bail</task>
+				<task>Maintenance et évolution d'un logiciel de simulation et de commande de crédit bail</task>
 				<task>Maintenance d’une application de gestion des risques pour la banque Crédit Agricole.</task>
 			</tasks>
 			<techno>java, javascript, uml</techno>
@@ -413,7 +392,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>Celad</nom>
 				<info>Pour Natixis</info>
 			</entreprise>
-			<context>Developpement d'une application de vente de tickets restaurants</context>
+			<context>Développement d'une application de vente de tickets restaurants</context>
 			<myGoal></myGoal>
 			<tasks>
 				<task></task>
@@ -520,7 +499,7 @@ Le projet a été terminé en temps et en heure.
 
 
 		<experience>
-			<experienceTitre>Developpeur Java</experienceTitre>
+			<experienceTitre>Développeur Java</experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
 			<dateStart>01/05/1999</dateStart>
 			<dateEnd>30/02/2000</dateEnd>
@@ -603,8 +582,8 @@ Le projet a été terminé en temps et en heure.
 				<task>Responsable technique d'un système d'arme</task>
 				<task>Responsable des spécifications des logiciels</task>
 				<task>Responsable des essais et des tirs</task>
-				<task>Participation à l'integration de capteurs infrarouge (Traitement d'images)</task>
-				<task>Participation aux deploiements opérationnels en Arabie Saoudite</task>
+				<task>Participation à l'intégration de capteurs infrarouge (Traitement d'images)</task>
+				<task>Participation aux déploiements opérationnels en Arabie Saoudite</task>
 				<task>Participation à des essais au Nouveau-Mexique (Usa)</task>
 				<task>Participation à l'adaptation de Kourou à Ariane V et à la navette Hermès </task>
 				<task>Responsable technique de la réponse à un appel d'offre d'Arabsat</task>
