@@ -6,11 +6,11 @@ import java.io.PrintStream;
 public class WritterText implements IWritter{
 
 	
-	private String text; 
+	private String text=""; 
 	File dir = GeneratorDoc.DIR;
 	public void print() {
 		try {
-			File file = new File(dir, "cv_" + System.currentTimeMillis() + ".txt");
+			File file = new File(dir, "cv_" + ".txt");
 			PrintStream ps = new PrintStream(file);
 			ps.println(text);
 			ps.close();
@@ -32,6 +32,16 @@ public class WritterText implements IWritter{
 
 	public void addLigne(Object line) {
 		text += ""+line+"\n";
+		
+	}
+
+	public void addTitle1(String s) {
+		text += "\n\t\t"+s.toUpperCase()+"\n";
+		
+	}
+
+	public void addTitle2(String s) {
+		text += "\t"+s.toUpperCase()+"\n";
 		
 	}
 

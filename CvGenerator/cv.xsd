@@ -106,7 +106,7 @@
                                                                                        </xs:sequence>
                                                                                 </xs:complexType>
                                                                          </xs:element>
-                                                                          <xs:element name="techno" type="xs:string"></xs:element>
+                                                                          <xs:element name="technos" type="xs:string"></xs:element>
                                                                   </xs:all>
                                                            </xs:complexType>
                                                     </xs:element>

@@ -2,7 +2,7 @@
 <cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="cv.xsd">
 
-	<title>Développeur Java</title>
+	<title>Expert Java et J2EE</title>
 	<etatCivil>
 		<nom>Guiral</nom>
 		<prenom>Bertrand</prenom>
@@ -67,17 +67,13 @@
 				<nom>Perso</nom>
 				<info></info>
 			</entreprise>
-			<context>Maintenance d'une application que j'ai écrite en 2015. Chaque appel téléphonique ou sms est enregistré dans l’agenda (typiquement l’agenda google de l’utilisateur, mais peut être aussi un agenda collectif et partagé), avec éventuellement une annotation. Cet agenda fait office de base de données répartie et synchronisée.
-Des écrans de consultation de l’historique permettent de consulter les appels à la façon d’un crm (Customer Relationship Management).
-			
-			</context>
+			<context>Maintenance (réécriture) d'une application que j'ai développé en 2015. Prise en compte des évolutions de l'ergonomie conseillée pour les applis  embarquées(Gestion des annotations ). Chaque appel téléphonique ou sms est enregistré dans l’agenda (typiquement l’agenda google de l’utilisateur, mais peut être aussi un agenda collectif et partagé), avec éventuellement une annotation rajoutée par l'utilisateur. Cet agenda fait office de base de données répartie et synchronisée.
+Des écrans de consultation de l’historique permettent de consulter les appels à la façon d’un crm (Customer Relationship Management).</context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>
-					 Réalisation (réécriture) d'une appli Android, en prenant en compte les évolutions de l'ergonomie conseillée pour les applis  embarquées(Gestion des annotations )
-				</task>
+				<task></task>
 			</tasks>
-			<techno>Java, Android, android studio, apis google</techno>
+			<technos>Java, Android, android studio, apis google</technos>
 
 		</experience>
 
@@ -107,7 +103,7 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 					Au sein d’une équipe scrum, réalisation d’un POC pour le compte de la CNAM (Caisse Nationale d’Assurance Maladie) permettant le traitement des feuilles d’assurance maladie (Intégration d’un BRMS - Business Rules Management System). Je m’occupais de la partie java.
 				</task>
 			</tasks>
-			<techno>java, jboss, maven, jenkins, hibernate, uml, spring</techno>
+			<technos>java, jboss, maven, jenkins, hibernate, uml, spring</technos>
 		</experience>
 
 
@@ -125,7 +121,7 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 				<info></info>
 			</entreprise>
 			<context>Réalisation d’un POC du Système d’information de l’aéroport de Paris.
-Génération automatique d’une application Spring Boot à partir d’une modélisation uml des données, 
+Génération automatique d’une application Spring Boot à partir d’une modélisation uml des données. 
 L’application et les bases de données devait atteindre certains critères de redondances de sécurité (jwt Json Web Token) et être re-déployé sur AWS (Amazon) tous les jours.
 L’ensemble (génération de l’appli, instanciation et déploiement ) était automatique.
 Une évaluation des performances a été faites par le client (Changement du modèle de données, performances globales, tests d’intégrations, tableau de bord).</context>
@@ -133,7 +129,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<tasks>
 				<task></task>
 			</tasks>
-			<techno>Spring boot, javapoet, jackson,acceleo, maven , aws, mariaDB</techno>
+			<technos>Spring boot, javapoet, jackson,acceleo, maven , aws, mariaDB</technos>
 		</experience>
 
 		<experience>
@@ -155,8 +151,8 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<tasks>
 				<task></task>
 			</tasks>
-			<techno> Spring boot, hibernate, Angular 4, maven, java 8, Swagger, JUnit,  Mockito, Jackson, lombok, scrum
-			</techno>
+			<technos> Spring boot, hibernate, Angular 4, maven, java 8, Swagger, JUnit,  Mockito, Jackson, lombok, scrum
+			</technos>
 		</experience>
 
 
@@ -180,7 +176,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<task>Retro engineering et portage d'une application  écrite en C  (application "Saga") en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de l'industrialisation.</task>
 				<task>Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'authentification unique et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une extension chrome et des api citrix.</task>
 			</tasks>
-			<techno>Angular, java, Api citrix, javascript, extension chrome, JNA (Java Native Acces).</techno>
+			<technos>Angular, java, Api citrix, javascript, extension chrome, JNA (Java Native Acces).</technos>
 		</experience>
 
 		<experience>
@@ -204,7 +200,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<task>Maintenance corrective et évolutive</task>
 				<task>Support chez le client , pour investigations</task>
 			</tasks>
-			<techno>Java, J2EE, JSF, Spring, Hibernate, jasper , BPMN</techno>
+			<technos>Java, J2EE, JSF, Spring, Hibernate, jasper , BPMN</technos>
 		</experience>
 		<experience>
 			<experienceTitre>Java Développeur</experienceTitre>
@@ -227,8 +223,8 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<task>Mise en place de l'environnement de développement et d'intégration continue (Steria venait de gagner la maintenance du projet) </task>
 				<task>Maintenance corrective</task>
 			</tasks>
-			<techno> java, j2ee, web services,  swing, jnlp, maven.
-			</techno>
+			<technos> java, j2ee, web services,  swing, jnlp, maven.
+			</technos>
 		</experience>
 		<experience>
 			<experienceTitre>Formateur Génie Logiciel</experienceTitre>
@@ -248,7 +244,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<tasks>
 				<task></task>
 			</tasks>
-			<techno></techno>
+			<technos></technos>
 		</experience>
 		<experience>
 			<experienceTitre>Java Développeur</experienceTitre>
@@ -269,7 +265,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<tasks>
 				<task>Tuning de la jvm pour rentrer dans les contraintes de production.</task>
 			</tasks>
-			<techno> Java, osgi (plateforme knopflerfish) , jboss,  swing, spring.</techno>
+			<technos> Java, osgi (plateforme knopflerfish) , jboss,  swing, spring.</technos>
 		</experience>
 
 		<experience>
@@ -290,7 +286,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<tasks>
 				<task></task>
 			</tasks>
-			<techno> Java,weblogic, infinispan, j2ee</techno>
+			<technos> Java,weblogic, infinispan, j2ee</technos>
 		</experience>
 
 		<experience>
@@ -311,7 +307,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<tasks>
 				<task>Préparation des cours et animation d'un stage de 12 personnes.</task>
 			</tasks>
-			<techno>java, j2ee, sql</techno>
+			<technos>java, j2ee, sql</technos>
 		</experience>
 		<experience>
 			<experienceTitre>Développement Logiciel</experienceTitre>
@@ -331,7 +327,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<tasks>
 				<task>Investigation et correction d'anomalies</task>
 			</tasks>
-			<techno>Java, spring , spring Batch, Multi thread</techno>
+			<technos>Java, spring , spring Batch, Multi thread</technos>
 		</experience>
 
 		<experience>
@@ -353,7 +349,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<task>Conception et réalisation d'une application de monitoring</task>
 				<task>Participations aux campagnes de mesure et d'étude des performances.</task>
 			</tasks>
-			<techno>Java, spring ,  gwt, appengine</techno>
+			<technos>Java, spring ,  gwt, appengine</technos>
 		</experience>
 		
 
@@ -376,7 +372,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<task>Maintenance et évolution d'un logiciel de simulation et de commande de crédit bail</task>
 				<task>Maintenance d’une application de gestion des risques pour la banque Crédit Agricole.</task>
 			</tasks>
-			<techno>java, javascript, uml</techno>
+			<technos>java, javascript, uml</technos>
 		</experience>
 
 		<experience>
@@ -398,7 +394,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<task></task>
 				<task></task>
 			</tasks>
-			<techno>Websphère,framework seam de jboss (spring, jsf et hibernate), java, j2ee</techno>
+			<technos>Websphère,framework seam de jboss (spring, jsf et hibernate), java, j2ee</technos>
 		</experience>
 
 		<experience>
@@ -422,7 +418,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Développement java</task>
 				<task>Tentative de mise en place d'une méthode scrum</task>
 			</tasks>
-			<techno>java, j2ee , struts, websphere</techno>
+			<technos>java, j2ee , struts, websphere</technos>
 		</experience>
 
 		<experience>
@@ -448,7 +444,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Formation EJB 3</task>
 
 			</tasks>
-			<techno>Java, web service, html, css, soa</techno>
+			<technos>Java, web service, html, css, soa</technos>
 		</experience>
 
 		<experience>
@@ -472,7 +468,7 @@ Le projet a été terminé en temps et en heure.
 				<task>InterConnexion avec  le SI de Bouygues Télécom  (Architecture SOA)</task>
 				<task>Intégration d’un framework  Nokia développé en Inde</task>
 			</tasks>
-			<techno>Java, Tomcat, Ant, Maven, SOA, Web Services.</techno>
+			<technos>Java, Tomcat, Ant, Maven, SOA, Web Services.</technos>
 		</experience>
 
 		<experience>
@@ -494,7 +490,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Conception et réalisation d’un routeur RNIS/X25 pour une application monétique</task>
 
 			</tasks>
-			<techno>Java, RNIS, X25</techno>
+			<technos>Java, RNIS, X25</technos>
 		</experience>
 
 
@@ -517,7 +513,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Développement d'applications de consultation de messagerie pour différents media : web, telephone, vocal</task>
 				<task></task>
 			</tasks>
-			<techno>java, jrun, voxml</techno>
+			<technos>java, jrun, voxml</technos>
 		</experience>
 		
 		<experience>
@@ -538,7 +534,7 @@ Le projet a été terminé en temps et en heure.
 			<tasks>
 				<task>Développement d'unne applications de gestion de notes de frais</task>
 			</tasks>
-			<techno></techno>
+			<technos></technos>
 		</experience>
 
 		<experience>
@@ -559,7 +555,7 @@ Le projet a été terminé en temps et en heure.
 			<tasks>
 				<task></task>
 			</tasks>
-			<techno></techno>
+			<technos></technos>
 		</experience>
 
 		<experience>
@@ -590,7 +586,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Responsable technique de la réponse à un appel d'offre pour le CNES (Liaison fibre Toulouse / Aussaguel)</task>
 				<task></task>
 			</tasks>
-			<techno></techno>
+			<technos>Radar et Hyper fréquences, Traitement d'images, Logiciel temps réel, Instrumentation, Automatisme (Pilotage et guidage de missiles, asservissement de tourelles)  </technos>
 		</experience>
 
 

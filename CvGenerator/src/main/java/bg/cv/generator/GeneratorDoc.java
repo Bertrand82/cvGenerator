@@ -33,11 +33,14 @@ public class GeneratorDoc {
 
 	private void generate() throws Exception {
 		generateEtatCivil();
+		addTitle1(this.cv.getTitle());
 		generateFormations();
 		generateSkills();
 		generateExperiences();
 		print();
 	}
+
+	
 
 	
 
@@ -50,7 +53,9 @@ public class GeneratorDoc {
 		addBreak();
 		addLigne( cvEtatCivil.getAdresse().getLigne1());
 		addLigne( cvEtatCivil.getAdresse().getLigne2());
+		
 		addLigne( cvEtatCivil.getAdresse().getZipCode() + "  " + cvEtatCivil.getAdresse().getCity());
+		addBreak();
 		addLigne( cvEtatCivil.getEmail());
 		addLigne( cvEtatCivil.getTelephone());
 		
@@ -66,28 +71,33 @@ public class GeneratorDoc {
 		
 		
 		
-		addLigne( "Formation");
+		addTitle2( "Formation");
 		
 		
 		Cv.Formations formations = this.cv.getFormations();
 		for (Formation formation : formations.getFormation()) {
 			addLigne( formation.getDiplome(), formation.getSchool(), formation.getYear());
 		}
+		addBreak();
 		finParagraphe();
 	}
 	
 
+
 	private void generateSkills() {
 		debutParagraphe();
 		
-		addLigne("Compétences");
+		addTitle2("Compétences");
 		Cv.Skills skills = this.cv.getSkills();
 		for (Skill skill : skills.getSkill()) {
 			addLigne( skill.getLabel(), skill.getNivel());
 		}
+		addBreak();
 		finParagraphe();
 	}
 	private void generateExperiences() {
+		
+		addTitle2("Experiences et principales réalisation");
 		Cv.Experiences experiences = this.cv.getExperiences();
 		for (Experience experience : experiences.getExperience()) {
 			generateExperience(experience);
@@ -96,14 +106,14 @@ public class GeneratorDoc {
 	private void generateExperience(Experience experience) {
 		debutParagraphe();
 		addLigne( "   ");
-		String s = ""+experience.getDateStart()+" au "+experience.getDateEnd()+"  "+experience.getEntreprise().getNom();
-		addLigne(s);
+		String s = ""+experience.getDateStart()+" au "+experience.getDateEnd()+"  "+experience.getEntreprise().getNom()+"  "+experience.getExperienceTitre();
+		addTitle2(s);
 		addLigne( experience.getContext());
 		addLigne(experience.getMyGoal());
-		addLigne(experience.getExperienceTitre());
 		for(String task : experience.getTasks().getTask()) {
 			addLigne( task);
 		}
+		addLigne("Technos :"+experience.getTechnos());
 		finParagraphe();
 	
 	}
@@ -172,5 +182,20 @@ public class GeneratorDoc {
 		}
 	}
 
-	
+	private void addTitle1(String text) {
+		if (!isNullOrEmpty(text)) {
+			for(IWritter w : listWritters) {
+				w.addTitle1(text);
+			}
+		}
+	}
+
+	private void addTitle2(String s) {
+		if (!isNullOrEmpty(s)) {
+			for(IWritter w : listWritters) {
+				w.addTitle2(s);
+			}
+		}
+		
+	}
 }

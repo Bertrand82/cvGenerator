@@ -67,6 +67,19 @@ public class WritterWord implements IWritter{
 		// TODO Auto-generated method stub
 		
 	}
+
+
+	public void addTitle1(String text) {
+		run.setText("" + text.toUpperCase());
+		run.addBreak();
+	}
+
+
+	public void addTitle2(String text) {
+		run.setText("" + text.toUpperCase());
+		run.addBreak();
+		
+	}
 	
 	
 }
