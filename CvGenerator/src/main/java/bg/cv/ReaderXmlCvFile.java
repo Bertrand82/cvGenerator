@@ -12,10 +12,10 @@ import org.w3c.dom.Document;
 import bg.cv.generator.GeneratorDoc;
 import bg.cv.model.Cv;
 
-public class MainReadXmlCvFile {
+public class ReaderXmlCvFile {
 
-	public static void main(String[] args) throws Exception {
-		File file = new File("cv_bg.xml");
+	public static void parseFile(String fileName) throws Exception {
+		File file = new File(fileName);
 		Cv cv  = parseCvXml(file);
 		System.out.println("cv : "+cv);
 		new GeneratorDoc(cv);
