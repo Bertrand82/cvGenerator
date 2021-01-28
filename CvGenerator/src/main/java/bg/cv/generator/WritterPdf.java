@@ -3,6 +3,7 @@ package bg.cv.generator;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.util.List;
 
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Chunk;
@@ -87,6 +88,24 @@ public class WritterPdf implements IWritter{
 
 	public void addTitle2(String text) {
 		addTitle(text, Element.ALIGN_LEFT);
+	}
+
+	public void addLignePuce(List<String> list) {
+		try {
+			if(! paragraph.isEmpty()) {
+				document.add(paragraph);
+			}
+			this.paragraph=new Paragraph("",font);
+			com.itextpdf.text.List lPdf =  new com.itextpdf.text.List();
+			for(String s : list) {
+				lPdf.add(s);
+			}
+			document.add(lPdf);
+		} catch (DocumentException e) {
+			
+			e.printStackTrace();
+		}
+		
 	}
 	
 	

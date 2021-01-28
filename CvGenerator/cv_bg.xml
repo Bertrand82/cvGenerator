@@ -93,14 +93,11 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 			<context>Gestion des "feuilles maladies" de la sécurité sociale</context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>
-					Réalisation d’une application j2ee, avec les standards iMSA,  permettant d’alimenter la GED (Gestion Electronique des Documents)  de MSA par des documents provenant d'une autre caisse (CFE Caisses des Français Expatriés). L'application est passé en prod en respectant les délais.
+				<task>Réalisation d’une application j2ee, avec les standards iMSA,  permettant d’alimenter la GED (Gestion Electronique des Documents)  de MSA par des documents provenant d'une autre caisse (CFE Caisses des Français Expatriés). L'application est passé en prod en respectant les délais.
 				</task>
-				<task>
-					 Maintenance des applications existantes (Migration jboss, Corrections SONAR, corrections applicatives, changement de versions de librairies).
+				<task> Maintenance des applications existantes (Migration jboss, Corrections SONAR, corrections applicatives, changement de versions de librairies).
 				</task>
-				<task>
-					Au sein d’une équipe scrum, réalisation d’un POC pour le compte de la CNAM (Caisse Nationale d’Assurance Maladie) permettant le traitement des feuilles d’assurance maladie (Intégration d’un BRMS - Business Rules Management System). Je m’occupais de la partie java.
+				<task>Au sein d’une équipe scrum, réalisation d’un POC pour le compte de la CNAM (Caisse Nationale d’Assurance Maladie) permettant le traitement des feuilles d’assurance maladie (Intégration d’un BRMS - Business Rules Management System). Je m’occupais de la partie java.
 				</task>
 			</tasks>
 			<technos>java, jboss, maven, jenkins, hibernate, uml, spring</technos>
@@ -215,19 +212,17 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>Steria</nom>
 				<info></info>
 			</entreprise>
-			<context>Maintenance et évolution d’une application distribuée (java, j2ee, web services, client lourd) de gestions des cartes électroniques dans le milieu spatial.
-
-			</context>
+			<context>Maintenance et évolution d’une application distribuée (java, j2ee, web services, client lourd) de gestions des cartes électroniques dans le milieu spatial.</context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>Mise en place de l'environnement de développement et d'intégration continue (Steria venait de gagner la maintenance du projet) </task>
-				<task>Maintenance corrective</task>
+				<task>Mise en place de l'environnement de développement et d'intégration continue. </task>
+				<task>Maintenance corrective et évolutive</task>
 			</tasks>
 			<technos> java, j2ee, web services,  swing, jnlp, maven.
 			</technos>
 		</experience>
 		<experience>
-			<experienceTitre>Formateur Génie Logiciel</experienceTitre>
+			<experienceTitre>Formateur</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>1/12/2011</dateStart>
 			<dateEnd>1/07/2012</dateEnd>
@@ -256,7 +251,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<country></country>
 			</lieuGeographique>
 			<entreprise>
-				<nom> </nom>
+				<nom>Sogeti pour airbus </nom>
 				<info></info>
 			</entreprise>
 			<context>Renfort d’une équipe en phase de livraison. Participation à la réalisation d’ une application embarquée sur des avions de lignes dans différents environnements

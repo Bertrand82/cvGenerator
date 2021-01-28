@@ -2,6 +2,7 @@ package bg.cv.generator;
 
 import java.io.File;
 import java.io.PrintStream;
+import java.util.List;
 
 public class WritterText implements IWritter{
 
@@ -48,6 +49,12 @@ public class WritterText implements IWritter{
 	public void addBreak() {
 		text+="\n";
 		
+	}
+
+	public void addLignePuce(List<String> list) {
+		for( String s : list) {
+			text+="\t - "+s+"\n";
+		}
 	}
 
 }

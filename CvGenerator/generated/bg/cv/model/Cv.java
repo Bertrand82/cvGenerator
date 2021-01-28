@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.8-b130911.1802 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2021.01.27 à 02:00:09 PM CET 
+// Généré le : 2021.01.28 à 06:43:47 PM CET 
 //
 
 
@@ -138,7 +138,7 @@ import javax.xml.bind.annotation.XmlType;
  *                             &lt;element name="dateStart" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                             &lt;element name="dateEnd" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                             &lt;element name="typeDeContrat" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                             &lt;element name="lieuGegraphique">
+ *                             &lt;element name="lieuGeographique">
  *                               &lt;complexType>
  *                                 &lt;complexContent>
  *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -175,7 +175,7 @@ import javax.xml.bind.annotation.XmlType;
  *                                 &lt;/complexContent>
  *                               &lt;/complexType>
  *                             &lt;/element>
- *                             &lt;element name="techno" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                             &lt;element name="technos" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                           &lt;/all>
  *                         &lt;/restriction>
  *                       &lt;/complexContent>
@@ -722,7 +722,7 @@ public class Cv {
      *                   &lt;element name="dateStart" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                   &lt;element name="dateEnd" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                   &lt;element name="typeDeContrat" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="lieuGegraphique">
+     *                   &lt;element name="lieuGeographique">
      *                     &lt;complexType>
      *                       &lt;complexContent>
      *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -759,7 +759,7 @@ public class Cv {
      *                       &lt;/complexContent>
      *                     &lt;/complexType>
      *                   &lt;/element>
-     *                   &lt;element name="techno" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                   &lt;element name="technos" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                 &lt;/all>
      *               &lt;/restriction>
      *             &lt;/complexContent>
@@ -826,7 +826,7 @@ public class Cv {
          *         &lt;element name="dateStart" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *         &lt;element name="dateEnd" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *         &lt;element name="typeDeContrat" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="lieuGegraphique">
+         *         &lt;element name="lieuGeographique">
          *           &lt;complexType>
          *             &lt;complexContent>
          *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -863,7 +863,7 @@ public class Cv {
          *             &lt;/complexContent>
          *           &lt;/complexType>
          *         &lt;/element>
-         *         &lt;element name="techno" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *         &lt;element name="technos" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *       &lt;/all>
          *     &lt;/restriction>
          *   &lt;/complexContent>
@@ -884,10 +884,10 @@ public class Cv {
             protected String dateStart;
             @XmlElement(required = true)
             protected String dateEnd;
-            @XmlElement(required = true)
+            @XmlElement(required = true, nillable = true)
             protected String typeDeContrat;
             @XmlElement(required = true)
-            protected Cv.Experiences.Experience.LieuGegraphique lieuGegraphique;
+            protected Cv.Experiences.Experience.LieuGeographique lieuGeographique;
             @XmlElement(required = true)
             protected Cv.Experiences.Experience.Entreprise entreprise;
             @XmlElement(required = true)
@@ -897,7 +897,7 @@ public class Cv {
             @XmlElement(required = true)
             protected Cv.Experiences.Experience.Tasks tasks;
             @XmlElement(required = true)
-            protected String techno;
+            protected String technos;
 
             /**
              * Obtient la valeur de la propriété experienceTitre.
@@ -996,27 +996,27 @@ public class Cv {
             }
 
             /**
-             * Obtient la valeur de la propriété lieuGegraphique.
+             * Obtient la valeur de la propriété lieuGeographique.
              * 
              * @return
              *     possible object is
-             *     {@link Cv.Experiences.Experience.LieuGegraphique }
+             *     {@link Cv.Experiences.Experience.LieuGeographique }
              *     
              */
-            public Cv.Experiences.Experience.LieuGegraphique getLieuGegraphique() {
-                return lieuGegraphique;
+            public Cv.Experiences.Experience.LieuGeographique getLieuGeographique() {
+                return lieuGeographique;
             }
 
             /**
-             * Définit la valeur de la propriété lieuGegraphique.
+             * Définit la valeur de la propriété lieuGeographique.
              * 
              * @param value
              *     allowed object is
-             *     {@link Cv.Experiences.Experience.LieuGegraphique }
+             *     {@link Cv.Experiences.Experience.LieuGeographique }
              *     
              */
-            public void setLieuGegraphique(Cv.Experiences.Experience.LieuGegraphique value) {
-                this.lieuGegraphique = value;
+            public void setLieuGeographique(Cv.Experiences.Experience.LieuGeographique value) {
+                this.lieuGeographique = value;
             }
 
             /**
@@ -1116,27 +1116,27 @@ public class Cv {
             }
 
             /**
-             * Obtient la valeur de la propriété techno.
+             * Obtient la valeur de la propriété technos.
              * 
              * @return
              *     possible object is
              *     {@link String }
              *     
              */
-            public String getTechno() {
-                return techno;
+            public String getTechnos() {
+                return technos;
             }
 
             /**
-             * Définit la valeur de la propriété techno.
+             * Définit la valeur de la propriété technos.
              * 
              * @param value
              *     allowed object is
              *     {@link String }
              *     
              */
-            public void setTechno(String value) {
-                this.techno = value;
+            public void setTechnos(String value) {
+                this.technos = value;
             }
 
 
@@ -1248,7 +1248,7 @@ public class Cv {
                 "city",
                 "country"
             })
-            public static class LieuGegraphique {
+            public static class LieuGeographique {
 
                 @XmlElement(required = true)
                 protected String city;

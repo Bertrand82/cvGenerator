@@ -80,6 +80,14 @@ public class WritterWord implements IWritter{
 		run.addBreak();
 		
 	}
+
+
+	public void addLignePuce(List<String> list) {
+		for (String s : list) {
+			addLigne(s);
+		}
+		
+	}
 	
 	
 }
