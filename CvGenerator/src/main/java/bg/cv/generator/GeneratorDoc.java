@@ -91,6 +91,8 @@ public class GeneratorDoc {
 		addLigne(run, "   ");
 		String s = ""+experience.getDateStart()+" au "+experience.getDateEnd()+"  "+experience.getEntreprise().getNom();
 		addLigne(run, s);
+		addLigne(run, experience.getContext());
+		addLigne(run, experience.getMyGoal());
 		addLigne(run, experience.getExperienceTitre());
 		for(String task : experience.getTasks().getTask()) {
 			addLigne(run, task);

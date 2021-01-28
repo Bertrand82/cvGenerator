@@ -67,12 +67,14 @@
 				<nom>Perso</nom>
 				<info></info>
 			</entreprise>
-			<context>Maintenance d'une application que j'ai écrite en 2015.
+			<context>Maintenance d'une application que j'ai écrite en 2015. Chaque appel téléphonique ou sms est enregistré dans l’agenda (typiquement l’agenda google de l’utilisateur, mais peut être aussi un agenda collectif et partagé), avec éventuellement une annotation. Cet agenda fait office de base de données répartie et synchronisée.
+Des écrans de consultation de l’historique permettent de consulter les appels à la façon d’un crm (Customer Relationship Management).
+			
 			</context>
-			<myGoal>Maitriser la techno android.</myGoal>
+			<myGoal></myGoal>
 			<tasks>
 				<task>
-					 Réalisation (re-écriture) d'une appli Android, en prenant en compte les évolutions de l'ergonomie conseillée pour les appli(Gestion des annotations )
+					 Réalisation (re-écriture) d'une appli Android, en prenant en compte les évolutions de l'ergonomie conseillée pour les applis  embarquées(Gestion des annotations )
 				</task>
 			</tasks>
 			<techno>Java, Android, android studio, apis google</techno>
@@ -96,14 +98,13 @@
 			<myGoal></myGoal>
 			<tasks>
 				<task>
-					Réalisation d’une application j2ee: Avec les standards iMSA, réalisation d’une application j2ee permettant d’alimenter la GED (Gestion Electronique des Documents)  de MSA par des documents extérieurs.
+					Réalisation d’une application j2ee, avec les standards iMSA,  permettant d’alimenter la GED (Gestion Electronique des Documents)  de MSA par des documents provenant d'une autre caisse (CFE Caisses des Français Expatriés). L'application est passé en prod en respectant les délais.
 				</task>
 				<task>
 					 Maintenance des applications existantes (Migration jboss, Corrections SONAR, corrections applicatives, changement de versions de librairies).
 				</task>
 				<task>
 					Au sein d’une équipe scrum, réalisation d’un POC pour le compte de la CNAM (Caisse Nationale d’Assurance Maladie) permettant le traitement des feuilles d’assurance maladie (Intégration d’un BRMS - Business Rules Management System). Je m’occupais de la partie java.
-
 				</task>
 			</tasks>
 			<techno>java, jboss, maven, jenkins, hibernate, uml, spring</techno>
@@ -125,7 +126,7 @@
 			</entreprise>
 			<context>Réalisation d’un POC du Système d’information de l’aéroport de Paris.
 Génération automatique d’une application Spring Boot à partir d’une modélisation uml des données, 
-L’application devait atteindre certains critères de redondances de sécurité (jwt Json Web Token) et être déployé sur AWS (Amazon) .
+L’application et les bases de données devait atteindre certains critères de redondances de sécurité (jwt Json Web Token) et être re-déployé sur AWS (Amazon) tous les jours.
 L’ensemble (génération de l’appli, instanciation et déploiement ) était automatique.
 Une évaluation des performances a été faites par le client (Changement du modèle de données, performances globales, tests d’intégrations, tableau de bord).</context>
 			<myGoal></myGoal>
@@ -148,7 +149,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>Air France</nom>
 				<info></info>
 			</entreprise>
-			<context>Participation à la conception et la réalisation d’une application web. J’avais en charge la prise en compte de la partie sécurité (jwt), avec l’intégration dans le système d’authentification de l’entreprise.
+			<context>Participation à la conception et à la réalisation d’une application web. J’avais en charge la prise en compte de la partie sécurité (jwt), avec l’intégration dans le système d’authentification de l’entreprise.
 			</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -176,10 +177,10 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>Retro engineering et portage d'une application (apaplication "Saga") écrite en C  en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de la réalisation industrielle.</task>
-				<task>Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'aspect sécurité et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une exrension chrome et des api citrix.</task>
+				<task>Retro engineering et portage d'une application  écrite en C  (application "Saga") en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de l'industriallisation.</task>
+				<task>Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'autentification unique et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une extension chrome et des api citrix.</task>
 			</tasks>
-			<techno>Angular, java, Api citrix, javascript, extension chrome.</techno>
+			<techno>Angular, java, Api citrix, javascript, extension chrome, JNA (Java Native Acces).</techno>
 		</experience>
 
 		<experience>
@@ -188,14 +189,14 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<dateStart>1/02/2015</dateStart>
 			<dateEnd>1/09/2016</dateEnd>
 			<lieuGeographique>
-				<city>Marseille, Aix-en-Provence, Massy, Les Clayes-sous-Bois </city>
+				<city>Marseille, Aix-en-Provence, Massy, Les Clayes-sous-Bois, Paris </city>
 				<country></country>
 			</lieuGeographique>
 			<entreprise>
 				<nom>Bull Atos</nom>
 				<info></info>
 			</entreprise>
-			<context>Pour le compte du ministère de la Défense Nationale , maintenance et évolution de l'application SIGALE (Système d'information, de gestion et d'administration des licences d'exportation). 
+			<context>Pour le compte du ministère de la Défense Nationale , maintenance et évolution de l'application SIGALE (Système d'Information, de Gestion et d'Administration des Licences d'Exportation). 
 			</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -223,7 +224,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			</context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>Mise en place de l'environnement de developpement et d'intégration continue (Steria venant de gagner la maintenance du projet) </task>
+				<task>Mise en place de l'environnement de developpement et d'intégration continue (Steria venait de gagner la maintenance du projet) </task>
 				<task>Maintenance corrective</task>
 			</tasks>
 			<techno> java, j2ee, web services,  swing, jnlp, maven.
@@ -284,7 +285,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>Amadeus</nom>
 				<info></info>
 			</entreprise>
-			<context>Amadeus souhaitait disposer d'une alternative aux solutions Oracle de clusterisation</context>
+			<context>Amadeus souhaitait disposer d'une alternative aux solutions Oracle de clusterisation et de partage des sessions de serveurs d'application</context>
 			<myGoal>Etude et prototypage de l’intégration d’un cache distribué (Infinispan de JBoss) pour le partage des sessions d’un serveur d’application (WebLogic).</myGoal>
 			<tasks>
 				<task></task>
@@ -305,8 +306,8 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>Sopra</nom>
 				<info></info>
 			</entreprise>
-			<context>Dans le cadre de la conversion de jeunes diplomés aux métier du logiciel</context>
-			<myGoal>Formateur pour une session de formation Java/J2EE pour Sopra Nantes</myGoal>
+			<context>Dans le cadre de la conversion de jeunes diplomés aux métiers du logiciel, formateur pour une session de formation Java/J2EE pour Sopra Nantes</context>
+			<myGoal></myGoal>
 			<tasks>
 				<task>Préparation des cours et animation d'un stage de 12 personnes.</task>
 			</tasks>
@@ -326,9 +327,9 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<info></info>
 			</entreprise>
 			<context>Renforcement  d’une équipe en phase de livraison d’un projet Spring batch pour la Comission Européenne.</context>
-			<myGoal>Investigation et correction d'anomalies</myGoal>
+			<myGoal></myGoal>
 			<tasks>
-				<task></task>
+				<task>Investigation et correction d'anomalies</task>
 			</tasks>
 			<techno>Java, spring , spring Batch, Multi thread</techno>
 		</experience>
@@ -346,8 +347,8 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<nom>MPPC Technology</nom>
 				<info></info>
 			</entreprise>
-			<context>MPPC est une startup dans le domaine de l'énergie photovoltaique. Pour extraire le maximum d'energie de panneaux solaire ,un  MPPT (Maximum Power Point Tracking) innovant était proposé.</context>
-			<myGoal>J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.</myGoal>
+			<context>MPPC était une startup dans le domaine de l'énergie photovoltaique. Pour extraire le maximum d'energie de panneaux solaire ,un  MPPT (Maximum Power Point Tracking) innovant était proposé. J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.</context>
+			<myGoal></myGoal>
 			<tasks>
 				<task>Conception et réalisation d'une application de monitoring</task>
 				<task>Participations aux campagnes de mesure et d'étude des performances.</task>
@@ -431,16 +432,16 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<country></country>
 			</lieuGeographique>
 			<entreprise>
-				<nom>Celad</nom>
-				<info>Pour Natixis</info>
+				<nom>Celad pour Natixis</nom>
+				<info></info>
 			</entreprise>
-			<context>Suite à la crise de 2008, Natixis souhaitait une nouvelle gestion  de son catalogue Produits </context>
+			<context>Natixis souhaitait une nouvelle gestion  de son catalogue Produits </context>
 			<myGoal>Responsable technique des développements au sein de l’équipe projet COREGE (6 personnes).
 Le projet a été terminé en temps et en heure.
 			</myGoal>
 			<tasks>
-				<task></task>
-				<task></task>
+				<task>Développement java</task>
+				<task>Tentative de mise en place d'une méthode scrum</task>
 			</tasks>
 			<techno>java, j2ee , struts, websphere</techno>
 		</experience>
@@ -466,7 +467,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Formation Web-Services</task>
 				<task>Formation html – css – javascript</task>
 				<task>Formation EJB 3</task>
-				
+
 			</tasks>
 			<techno>Java, web service, html, css, soa</techno>
 		</experience>
@@ -494,7 +495,7 @@ Le projet a été terminé en temps et en heure.
 			</tasks>
 			<techno>Java, Tomcat, Ant, Maven, SOA, Web Services.</techno>
 		</experience>
-		
+
 		<experience>
 			<experienceTitre>Développeur / Architecte java </experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
@@ -512,13 +513,13 @@ Le projet a été terminé en temps et en heure.
 			<myGoal></myGoal>
 			<tasks>
 				<task>Conception et réalisation d’un routeur RNIS/X25 pour une application monétique</task>
-				
+
 			</tasks>
 			<techno>Java, RNIS, X25</techno>
 		</experience>
-		
-		
-			<experience>
+
+
+		<experience>
 			<experienceTitre>Developpeur Java</experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
 			<dateStart>01/05/1999</dateStart>
@@ -539,6 +540,7 @@ Le projet a été terminé en temps et en heure.
 			</tasks>
 			<techno>java, jrun, voxml</techno>
 		</experience>
+		
 		<experience>
 			<experienceTitre>Développeur Java</experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
@@ -549,19 +551,17 @@ Le projet a été terminé en temps et en heure.
 				<country></country>
 			</lieuGeographique>
 			<entreprise>
-				<nom></nom>
+				<nom>OZA (Objet de A à Z)</nom>
 				<info></info>
 			</entreprise>
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
 				<task>Développement d'unne applications de gestion de notes de frais</task>
-				<task>Participation à la realisation d'un POC pour l'utilisation d'une carte à puce pour la SNCF</task>
-				<task>Développement d’un applet Java de jeu (Serious Game) de simulation dans le secteur médical.</task>
 			</tasks>
 			<techno></techno>
 		</experience>
-		
+
 		<experience>
 			<experienceTitre>Artisan Souffleur de verre</experienceTitre>
 			<typeDeContrat>Indépendant</typeDeContrat>
@@ -582,14 +582,15 @@ Le projet a été terminé en temps et en heure.
 			</tasks>
 			<techno></techno>
 		</experience>
-		
+
 		<experience>
 			<experienceTitre></experienceTitre>
 			<typeDeContrat></typeDeContrat>
 			<dateStart>01/09/1985</dateStart>
 			<dateEnd>30/10/1992</dateEnd>
 			<lieuGeographique>
-				<city>Bagneux, Biscarosse, Arabie Saoudite, Alamogordo (usa) , Kourou</city>
+				<city>Bagneux, Biscarosse, Arabie Saoudite, Alamogordo (usa) ,
+					Kourou</city>
 				<country></country>
 			</lieuGeographique>
 			<entreprise>
@@ -612,8 +613,8 @@ Le projet a été terminé en temps et en heure.
 			</tasks>
 			<techno></techno>
 		</experience>
-		
-		
+
+
 	</experiences>
 
 </cv>
