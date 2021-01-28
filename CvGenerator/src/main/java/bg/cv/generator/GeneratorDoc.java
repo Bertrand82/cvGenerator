@@ -18,13 +18,17 @@ import bg.cv.model.Cv.Skills.Skill;
 
 public class GeneratorDoc {
 	private final Cv cv;
-	private final XWPFDocument document = new XWPFDocument();
+	public static File DIR = new File("out");
 
-	private List<XWPFParagraph> listParagraphs = new ArrayList<XWPFParagraph>();
-
+	private List<IWritter> listWritters = new ArrayList<IWritter>();
+	
 	public GeneratorDoc(Cv cv) throws Exception {
 		this.cv = cv;
+		this.listWritters.add(new WritterWord());
+		this.listWritters.add(new WritterText());
+		this.listWritters.add(new WritterPdf());
 		generate();
+		listWritters.add(new WritterWord());
 	}
 
 	private void generate() throws Exception {
@@ -35,48 +39,53 @@ public class GeneratorDoc {
 		print();
 	}
 
+	
+
 	private void generateEtatCivil() {
 		EtatCivil cvEtatCivil = this.cv.getEtatCivil();
 
-		XWPFParagraph para = document.createParagraph();
-		para.setAlignment(ParagraphAlignment.LEFT);
+		this.debutParagraphe();
 
-		XWPFRun para2Run = para.createRun();
-		addLigne(para2Run,cvEtatCivil.getPrenom()+" "+ cvEtatCivil.getNom());		
-		para2Run.addBreak();
-		addLigne(para2Run, cvEtatCivil.getAdresse().getLigne1());
-		addLigne(para2Run, cvEtatCivil.getAdresse().getLigne2());
-		addLigne(para2Run, cvEtatCivil.getAdresse().getZipCode() + "  " + cvEtatCivil.getAdresse().getCity());
-		addLigne(para2Run,cvEtatCivil.getEmail());
-		addLigne(para2Run,cvEtatCivil.getTelephone());
-		para2Run.setItalic(false);
-		listParagraphs.add(para);
+		addLigne(cvEtatCivil.getPrenom()+" "+ cvEtatCivil.getNom());		
+		addBreak();
+		addLigne( cvEtatCivil.getAdresse().getLigne1());
+		addLigne( cvEtatCivil.getAdresse().getLigne2());
+		addLigne( cvEtatCivil.getAdresse().getZipCode() + "  " + cvEtatCivil.getAdresse().getCity());
+		addLigne( cvEtatCivil.getEmail());
+		addLigne( cvEtatCivil.getTelephone());
+		
+		finParagraphe();
 	}
+
+	
+
+	
 
 	private void generateFormations() {
-		XWPFParagraph para = document.createParagraph();
+		debutParagraphe();
 		
-		XWPFRun run = para.createRun();
-		para.setAlignment(ParagraphAlignment.CENTER);
-		addLigne(run, "Formation");
 		
-		para.setAlignment(ParagraphAlignment.LEFT);
+		
+		addLigne( "Formation");
+		
+		
 		Cv.Formations formations = this.cv.getFormations();
 		for (Formation formation : formations.getFormation()) {
-			addLigne(run, formation.getDiplome(), formation.getSchool(), formation.getYear());
+			addLigne( formation.getDiplome(), formation.getSchool(), formation.getYear());
 		}
-		listParagraphs.add(para);
+		finParagraphe();
 	}
+	
+
 	private void generateSkills() {
-		XWPFParagraph para = document.createParagraph();
-		para.setAlignment(ParagraphAlignment.LEFT);
-		XWPFRun run = para.createRun();
-		addLigne(run, "Compétences");
+		debutParagraphe();
+		
+		addLigne("Compétences");
 		Cv.Skills skills = this.cv.getSkills();
 		for (Skill skill : skills.getSkill()) {
-			addLigne(run, skill.getLabel(), skill.getNivel());
+			addLigne( skill.getLabel(), skill.getNivel());
 		}
-		listParagraphs.add(para);
+		finParagraphe();
 	}
 	private void generateExperiences() {
 		Cv.Experiences experiences = this.cv.getExperiences();
@@ -85,44 +94,38 @@ public class GeneratorDoc {
 		}
 	}
 	private void generateExperience(Experience experience) {
-		XWPFParagraph para = document.createParagraph();
-		para.setAlignment(ParagraphAlignment.LEFT);
-		XWPFRun run = para.createRun();
-		addLigne(run, "   ");
+		debutParagraphe();
+		addLigne( "   ");
 		String s = ""+experience.getDateStart()+" au "+experience.getDateEnd()+"  "+experience.getEntreprise().getNom();
-		addLigne(run, s);
-		addLigne(run, experience.getContext());
-		addLigne(run, experience.getMyGoal());
-		addLigne(run, experience.getExperienceTitre());
+		addLigne(s);
+		addLigne( experience.getContext());
+		addLigne(experience.getMyGoal());
+		addLigne(experience.getExperienceTitre());
 		for(String task : experience.getTasks().getTask()) {
-			addLigne(run, task);
+			addLigne( task);
 		}
+		finParagraphe();
 	
 	}
 
-	private static void addLigne(XWPFRun run, Object text1, Object text2, Object text3) {
+	private  void addLigne( Object text1, Object text2, Object text3) {
 		if (text1 == null) {
 		} else if (text2 == null) {
 		} else {
-			addLigne(run, text1 + " " + text2 + "  " + text3);
+			addLigne( text1 + " " + text2 + "  " + text3);
 		}
 	}
 
-	private static void addLigne(XWPFRun run, Object text1, Object text2) {
+	private  void addLigne( Object text1, Object text2) {
 		if (text1 == null) {
 		} else if (text2 == null) {
 		} else {
-			addLigne(run, text1 + " " + text2);
+			addLigne( text1 + " " + text2);
 		}
 
 	}
 
-	private static void addLigne(XWPFRun run, Object text) {
-		if (!isNullOrEmpty(text)) {
-			run.setText("" + text);
-			run.addBreak();
-		}
-	}
+	
 
 	private static boolean isNullOrEmpty(Object text) {
 		if (text == null) {
@@ -137,14 +140,37 @@ public class GeneratorDoc {
 		return false;
 	}
 
-	private static File DIR = new File("out");
-
-	private void print() throws Exception {
-		DIR.mkdirs();
-		File file = new File(DIR, "cv_" + System.currentTimeMillis() + ".doc");
-		FileOutputStream fout = new FileOutputStream(file);
-		document.write(fout);
-		document.close();
-		fout.close();
+	private void addBreak() {
+		for(IWritter w : listWritters) {
+			w.addBreak();
+		}
 	}
+	
+	private void debutParagraphe() {
+		for(IWritter w : listWritters) {
+			w.debutParagraphe();
+		}
+	}
+	
+	private void finParagraphe() {
+		for(IWritter w : listWritters) {
+			w.finPAragraphe();
+		}
+	}
+	private void print() {
+		for(IWritter w : listWritters) {
+			w.print();
+		}
+		
+	}
+	
+	private  void addLigne( Object text) {
+		if (!isNullOrEmpty(text)) {
+			for(IWritter w : listWritters) {
+				w.addLigne(text);
+			}
+		}
+	}
+
+	
 }
