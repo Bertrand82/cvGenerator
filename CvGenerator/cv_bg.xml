@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="cv.xsd">
+	xsi:noNamespaceSchemaLocation="src/main/ressources/xsd/cv.xsd">
 
 	<title>Expert Java et J2EE</title>
 	<etatCivil>
@@ -9,7 +9,7 @@
 		<telephone>0682426361</telephone>
 		<email>bertrand.guiral@gmail.com</email>
 		<adresse>
-			<ligne1>2 Rue Cariben</ligne1>
+			<ligne1>2 rue Cariben</ligne1>
 			<ligne2></ligne2>
 			<city>Montpezat de Quercy</city>
 			<zipCode>82270</zipCode>
@@ -52,14 +52,14 @@
 	<skills>
 			<skillLabel>Technologies</skillLabel>		
 			<skill nivel="5">Android</skill>			
-			<skill nivel="5">Traitement d'images</skill>			
+			<skill nivel="3">Traitement d'images</skill>			
 	</skills>
 	<skills>
 			<skillLabel>Notions</skillLabel>		
-			<skill nivel="5">angular</skill>			
-			<skill nivel="5">react</skill>			
-			<skill nivel="5">javascript</skill>			
-			<skill nivel="5">bpmn</skill>			
+			<skill nivel="1">angular</skill>			
+			<skill nivel="1">react</skill>			
+			<skill nivel="1">javascript</skill>			
+			<skill nivel="1">bpmn</skill>			
 	</skills>
 	
 	<experiences>
@@ -97,7 +97,7 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 				<country>France</country>
 			</lieuGeographique>
 			<entreprise>
-				<nom>iMsa</nom>
+				<nom>iMSA</nom>
 				<info>Mutuelle Sociale Agricole</info>
 			</entreprise>
 			<context>Gestion des "feuilles maladies" de la sécurité sociale</context>
@@ -174,7 +174,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 				<country>France</country>
 			</lieuGeographique>
 			<entreprise>
-				<nom>iMsa</nom>
+				<nom>iMSA</nom>
 				<info></info>
 			</entreprise>
 			<context></context>

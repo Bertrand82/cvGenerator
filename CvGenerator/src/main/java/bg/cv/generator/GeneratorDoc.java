@@ -1,14 +1,8 @@
 package bg.cv.generator;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.apache.poi.xwpf.usermodel.ParagraphAlignment;
-import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import org.apache.poi.xwpf.usermodel.XWPFParagraph;
-import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 import bg.cv.model.Cv;
 import bg.cv.model.Cv.EtatCivil;
@@ -115,7 +109,9 @@ public class GeneratorDoc {
 			}
 			addLignePuce(list);
 		}
-		addLigne("Technologies : " + experience.getTechnos());
+		if (!isNullOrEmpty(experience.getTechnos())){
+			addLigne("Technologies : " + experience.getTechnos());
+		}
 		finParagraphe();
 
 	}
@@ -128,14 +124,7 @@ public class GeneratorDoc {
 		}
 	}
 
-	private void addLigne(Object text1, Object text2) {
-		if (text1 == null) {
-		} else if (text2 == null) {
-		} else {
-			addLigne(text1 + " " + text2);
-		}
-
-	}
+	
 
 	private static boolean isNullOrEmpty(Object text) {
 		if (text == null) {

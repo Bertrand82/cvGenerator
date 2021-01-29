@@ -1,7 +1,6 @@
 package bg.cv.generator;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.List;
 
