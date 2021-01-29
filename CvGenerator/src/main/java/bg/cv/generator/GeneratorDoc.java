@@ -14,6 +14,7 @@ import bg.cv.model.Cv;
 import bg.cv.model.Cv.EtatCivil;
 import bg.cv.model.Cv.Experiences.Experience;
 import bg.cv.model.Cv.Formations.Formation;
+import bg.cv.model.Cv.Skills;
 import bg.cv.model.Cv.Skills.Skill;
 
 public class GeneratorDoc {
@@ -75,9 +76,14 @@ public class GeneratorDoc {
 		debutParagraphe();
 
 		addTitle2("Compétences");
-		Cv.Skills skills = this.cv.getSkills();
-		for (Skill skill : skills.getSkill()) {
-			addLigne(skill.getLabel(), skill.getNivel());
+		List<Skills> listSkills = this.cv.getSkills();
+		for (Skills skills : listSkills) {
+			String s = skills.getSkillLabel() + " : ";
+			for (Skill skill : skills.getSkill()) {
+				s+= skill.getValue().trim()+", ";
+			}
+			s = s.substring(0, s.length()-2)+".";
+			addLigne(s);
 		}
 		addBreak();
 		finParagraphe();
@@ -187,6 +193,7 @@ public class GeneratorDoc {
 			}
 		}
 	}
+
 	private void addLigneAndTrim(String text) {
 		if (text != null) {
 			addLigne(text.trim());

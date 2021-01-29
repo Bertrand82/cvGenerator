@@ -27,31 +27,41 @@
 	<languages>
 		<language>
 			<name>Anglais</name>
-			<level>3</level>
+			<level>Courant</level>
 		</language>
 	</languages>
 	<skills>
-		<skill>
-			<label>Développeur java </label>
-			<nivel>5</nivel>
-		</skill>
-		<skill>
-			<label>Spring </label>
-			<nivel>5</nivel>
-		</skill>
-		<skill>
-			<label>Hibernate </label>
-			<nivel>5</nivel>
-		</skill>
-		<skill>
-			<label>j2ee </label>
-			<nivel>5</nivel>
-		</skill>
-		<skill>
-			<label>javapoet </label>
-			<nivel>5</nivel>
-		</skill>
+			<skillLabel>Expertise</skillLabel>		
+			<skill nivel="5">java </skill>			
+			<skill nivel="5">j2ee </skill>			
 	</skills>
+	<skills>
+			<skillLabel>Outils</skillLabel>		
+			<skill nivel="5">Eclipse </skill>			
+			<skill nivel="5">Maven </skill>			
+	</skills>
+	<skills>
+			<skillLabel>Frameworks</skillLabel>		
+			<skill nivel="5">Spring</skill>			
+			<skill nivel="5">Spring Boot</skill>			
+			<skill nivel="5">Hibernate</skill>			
+			<skill nivel="5">Jackson</skill>			
+			<skill nivel="5">Jasper</skill>			
+	</skills>
+	
+	<skills>
+			<skillLabel>Technologies</skillLabel>		
+			<skill nivel="5">Android</skill>			
+			<skill nivel="5">Traitement d'images</skill>			
+	</skills>
+	<skills>
+			<skillLabel>Notions</skillLabel>		
+			<skill nivel="5">angular</skill>			
+			<skill nivel="5">react</skill>			
+			<skill nivel="5">javascript</skill>			
+			<skill nivel="5">bpmn</skill>			
+	</skills>
+	
 	<experiences>
 		<experience>
 			<experienceTitre>Concepteur-développeur d'une application Android
