@@ -5,8 +5,11 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.poi.ss.usermodel.Footer;
+import org.apache.poi.wp.usermodel.HeaderFooterType;
 import org.apache.poi.xwpf.usermodel.ParagraphAlignment;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
+import org.apache.poi.xwpf.usermodel.XWPFFooter;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
@@ -22,12 +25,29 @@ public class WritterWord implements IWritter{
 	XWPFRun run ;
 	
 	public WritterWord() {
-		para = document.createParagraph();
+		
+		initFooter();
+		para = document.createParagraph();		
 		para.setAlignment(ParagraphAlignment.LEFT);
 		run = para.createRun();
 	}
 	
 	
+	private void initFooter() {
+		XWPFFooter footer = document.createFooter(HeaderFooterType.DEFAULT);
+		XWPFParagraph paragraph = footer.getParagraphArray(0);
+		  if (paragraph == null) paragraph = footer.createParagraph();
+		  paragraph.setAlignment(ParagraphAlignment.CENTER);
+
+		  run = paragraph.createRun();  
+		  run.setText(" Page ");
+		  paragraph.getCTP().addNewFldSimple().setInstr("PAGE \\* MERGEFORMAT");
+		  run = paragraph.createRun();  
+		  run.setText(" of ");
+		  paragraph.getCTP().addNewFldSimple().setInstr("NUMPAGES \\* MERGEFORMAT");
+	}
+
+
 	public void print()  {
 		
 		try {
@@ -49,6 +69,7 @@ public class WritterWord implements IWritter{
 
 
 	public void finPAragraphe() {
+		
 		listParagraphs.add(para);
 		
 	}
@@ -68,14 +89,18 @@ public class WritterWord implements IWritter{
 
 
 	public void addTitle1(String text) {
+		finPAragraphe();
+		debutParagraphe();
+		run.setBold(true);
 		run.setText("" + text.toUpperCase());
-		run.addBreak();
+		//run.addBreak();
+		finPAragraphe();
+		debutParagraphe();
 	}
 
 
 	public void addTitle2(String text) {
-		run.setText("" + text.toUpperCase());
-		run.addBreak();
+		addTitle1(text);
 		
 	}
 

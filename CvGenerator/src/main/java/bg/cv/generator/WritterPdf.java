@@ -29,7 +29,9 @@ public class WritterPdf implements IWritter{
 			System.out.println(FontFactory.HELVETICA_BOLD);
 			System.out.println(FontFactory.HELVETICA);
 			File fileOut = new File(dir, "cv.pdf");
-			PdfWriter.getInstance(document, new FileOutputStream(fileOut));
+			PdfWriter pdfWriter = PdfWriter.getInstance(document, new FileOutputStream(fileOut));
+			WritterPdfFooterPage event = new WritterPdfFooterPage();
+			pdfWriter.setPageEvent(event);
 			document.open();
 		} catch (Exception e) {
 			

@@ -140,7 +140,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Java Développeur</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>1/04/2019</dateStart>
 			<dateEnd>30/08/2019</dateEnd>
@@ -165,7 +165,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 
 
 		<experience>
-			<experienceTitre>Java Développeur</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>1/12/2016</dateStart>
 			<dateEnd>1/03/2018</dateEnd>
@@ -187,7 +187,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Java Développeur</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>1/02/2015</dateStart>
 			<dateEnd>1/09/2016</dateEnd>
@@ -210,7 +210,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<technos>Java, J2EE, JSF, Spring, Hibernate, jasper , BPMN</technos>
 		</experience>
 		<experience>
-			<experienceTitre>Java Développeur</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>01/08/2012</dateStart>
 			<dateEnd>30/12/2014</dateEnd>
@@ -252,7 +252,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<technos></technos>
 		</experience>
 		<experience>
-			<experienceTitre>Java Développeur</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat></typeDeContrat>
 			<dateStart>15/10/2011</dateStart>
 			<dateEnd>30/12/2011</dateEnd>
@@ -274,7 +274,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Java</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>15/06/2011</dateStart>
 			<dateEnd>14/10/2011</dateEnd>
@@ -315,7 +315,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<technos>java, j2ee, sql</technos>
 		</experience>
 		<experience>
-			<experienceTitre>Développement Logiciel</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>7/02/2011</dateStart>
 			<dateEnd>1/04/2011</dateEnd>
@@ -336,7 +336,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développement Logiciel</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>7/02/2011</dateStart>
 			<dateEnd>1/04/2011</dateEnd>
@@ -359,7 +359,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		
 
 		<experience>
-			<experienceTitre>Développeur Java</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat></typeDeContrat>
 			<dateStart>01/01/2010</dateStart>
 			<dateEnd>30/05/2010</dateEnd>
@@ -381,7 +381,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur java</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>01/08/2009</dateStart>
 			<dateEnd>31/12//2009</dateEnd>
@@ -403,7 +403,7 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur java , Chef de projet</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java , Chef de projet</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>01/01/2009</dateStart>
 			<dateEnd>31/07/2009</dateEnd>
@@ -427,7 +427,7 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Formateur indépendant pour le compte d'organismes de formation</experienceTitre>
+			<experienceTitre>Formateur</experienceTitre>
 			<typeDeContrat>freelance</typeDeContrat>
 			<dateStart>01/01/2007</dateStart>
 			<dateEnd>31/12/2009</dateEnd>
@@ -439,7 +439,7 @@ Le projet a été terminé en temps et en heure.
 				<nom></nom>
 				<info></info>
 			</entreprise>
-			<context></context>
+			<context>Formateur pour le compte d'organismes de formation professionnels</context>
 			<myGoal></myGoal>
 			<tasks>
 				<task>Formation Java  (Hibernate, Spring, eclipse, subversion, maven, ant)</task>
@@ -453,7 +453,7 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur , Architecte J2EE</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
 			<dateStart>01/08/2002</dateStart>
 			<dateEnd>30/10/2006</dateEnd>
@@ -477,7 +477,7 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur / Architecte java </experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
 			<dateStart>01/01/2001</dateStart>
 			<dateEnd>30/06/2002</dateEnd>
@@ -500,7 +500,7 @@ Le projet a été terminé en temps et en heure.
 
 
 		<experience>
-			<experienceTitre>Développeur Java</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
 			<dateStart>01/05/1999</dateStart>
 			<dateEnd>30/02/2000</dateEnd>
@@ -522,7 +522,7 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 		
 		<experience>
-			<experienceTitre>Développeur Java</experienceTitre>
+			<experienceTitre>Développeur Concepteur Java</experienceTitre>
 			<typeDeContrat>cdi</typeDeContrat>
 			<dateStart>01/11/1998</dateStart>
 			<dateEnd>30/04/1999</dateEnd>
@@ -564,8 +564,8 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre></experienceTitre>
-			<typeDeContrat></typeDeContrat>
+			<experienceTitre>Ingénieur</experienceTitre>
+			<typeDeContrat>cdi</typeDeContrat>
 			<dateStart>01/09/1985</dateStart>
 			<dateEnd>30/10/1992</dateEnd>
 			<lieuGeographique>
@@ -591,7 +591,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Responsable technique de la réponse à un appel d'offre pour le CNES (Liaison fibre Toulouse / Aussaguel)</task>
 				<task></task>
 			</tasks>
-			<technos>Radar et Hyper fréquences, Traitement d'images, Logiciel temps réel, Instrumentation, Automatisme (Pilotage et guidage de missiles, asservissement de tourelles)  </technos>
+			<technos>Radar et Hyper fréquences, Traitement d'images, Logiciel temps réel, Instrumentation, Automatisme (Pilotage et guidage de missiles, asservissement de tourelles)  , algorithmie ... </technos>
 		</experience>
 
 
