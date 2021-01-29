@@ -81,10 +81,7 @@ public class WritterWord implements IWritter{
 
 
 	public void addLignePuce(List<String> list) {
-		for (String s : list) {
-			addLigne(s);
-		}
-		
+		list.forEach((s)->addLigne(s));
 	}
 	
 	

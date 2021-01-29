@@ -52,9 +52,8 @@ public class WritterText implements IWritter{
 	}
 
 	public void addLignePuce(List<String> list) {
-		for( String s : list) {
-			text+="\t - "+s+"\n";
-		}
+		list.forEach((s)->{text+="\t - "+s+"\n";});
+		
 	}
 
 }

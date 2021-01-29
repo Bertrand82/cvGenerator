@@ -59,9 +59,8 @@ public class GeneratorDoc {
 		addTitle2("Formation");
 
 		Cv.Formations formations = this.cv.getFormations();
-		for (Formation formation : formations.getFormation()) {
-			addLigne(formation.getDiplome(), formation.getSchool(), formation.getYear());
-		}
+		formations.getFormation().forEach((formation) ->addLigne(formation.getDiplome(), formation.getSchool(), formation.getYear())); 
+		
 		addBreak();
 		finParagraphe();
 	}

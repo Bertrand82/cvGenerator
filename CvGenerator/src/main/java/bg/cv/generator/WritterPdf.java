@@ -96,9 +96,7 @@ public class WritterPdf implements IWritter{
 			}
 			this.paragraph=new Paragraph("",font);
 			com.itextpdf.text.List lPdf =  new com.itextpdf.text.List();
-			for(String s : list) {
-				lPdf.add(s);
-			}
+			list.forEach(s->lPdf.add(s));			
 			document.add(lPdf);
 		} catch (DocumentException e) {
 			
