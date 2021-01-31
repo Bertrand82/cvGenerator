@@ -11,16 +11,18 @@
 				<xs:element name="etatCivil">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="nom" type="xs:string"></xs:element>
-							<xs:element name="prenom" type="xs:string"></xs:element>
-							<xs:element name="telephone" type="xs:string"></xs:element>
+							<xs:element name="name" type="xs:string"></xs:element>
+							<xs:element name="first-name" type="xs:string"></xs:element>
+							<xs:element name="date-of-birth" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+							<xs:element name="photo-path" minOccurs="0" maxOccurs="1"></xs:element>
+							<xs:element name="telephon" type="xs:string"></xs:element>
 							<xs:element name="email" type="xs:string"></xs:element>
 
-							<xs:element name="adresse">
+							<xs:element name="address">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="ligne1" type="xs:string"></xs:element>
-										<xs:element name="ligne2"></xs:element>
+										<xs:element name="ligne2" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
 										<xs:element name="city" type="xs:string"></xs:element>
 										<xs:element name="zipCode" type="xs:int"></xs:element>
 										<xs:element name="country" type="xs:string"></xs:element>
@@ -30,13 +32,13 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="formations">
+				<xs:element name="educations">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="formation" maxOccurs="unbounded">
+							<xs:element name="education" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="diplome" type="xs:string"></xs:element>
+										<xs:element name="diploma" type="xs:string"></xs:element>
 										<xs:element name="school" type="xs:string"></xs:element>
 										<xs:element name="year" type="xs:int"></xs:element>
 									</xs:sequence>
@@ -84,12 +86,12 @@
 							<xs:element name="experience" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:all>
-										<xs:element name="experienceTitre" type="xs:string"></xs:element>
+										<xs:element name="experienceTitle" type="xs:string"></xs:element>
 										<xs:element name="dateStart" type="xs:string"></xs:element>
 										<xs:element name="dateEnd" type="xs:string"></xs:element>
-										<xs:element name="typeDeContrat" type="xs:string"
+										<xs:element name="typeOfContract" type="xs:string"
 											nillable="true"></xs:element>
-										<xs:element name="lieuGeographique">
+										<xs:element name="location">
 											<xs:complexType>
 												<xs:sequence>
 													<xs:element name="city" type="xs:string"></xs:element>
@@ -97,11 +99,11 @@
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
-										<xs:element name="entreprise">
+										<xs:element name="company">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="nom" type="xs:string"></xs:element>
-													<xs:element name="info" type="xs:string"></xs:element>
+													<xs:element name="companyName" type="xs:string"></xs:element>
+													<xs:element name="companyInfos" type="xs:string"></xs:element>
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>

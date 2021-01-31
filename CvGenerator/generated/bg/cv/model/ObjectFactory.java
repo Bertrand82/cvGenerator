@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.8-b130911.1802 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2021.01.29 à 11:08:21 AM CET 
+// Généré le : 2021.01.31 à 07:08:30 PM CET 
 //
 
 
@@ -77,11 +77,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Cv.Formations }
+     * Create an instance of {@link Cv.Educations }
      * 
      */
-    public Cv.Formations createCvFormations() {
-        return new Cv.Formations();
+    public Cv.Educations createCvEducations() {
+        return new Cv.Educations();
     }
 
     /**
@@ -93,19 +93,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Cv.Experiences.Experience.LieuGeographique }
+     * Create an instance of {@link Cv.Experiences.Experience.Location }
      * 
      */
-    public Cv.Experiences.Experience.LieuGeographique createCvExperiencesExperienceLieuGeographique() {
-        return new Cv.Experiences.Experience.LieuGeographique();
+    public Cv.Experiences.Experience.Location createCvExperiencesExperienceLocation() {
+        return new Cv.Experiences.Experience.Location();
     }
 
     /**
-     * Create an instance of {@link Cv.Experiences.Experience.Entreprise }
+     * Create an instance of {@link Cv.Experiences.Experience.Company }
      * 
      */
-    public Cv.Experiences.Experience.Entreprise createCvExperiencesExperienceEntreprise() {
-        return new Cv.Experiences.Experience.Entreprise();
+    public Cv.Experiences.Experience.Company createCvExperiencesExperienceCompany() {
+        return new Cv.Experiences.Experience.Company();
     }
 
     /**
@@ -133,19 +133,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Cv.Formations.Formation }
+     * Create an instance of {@link Cv.Educations.Education }
      * 
      */
-    public Cv.Formations.Formation createCvFormationsFormation() {
-        return new Cv.Formations.Formation();
+    public Cv.Educations.Education createCvEducationsEducation() {
+        return new Cv.Educations.Education();
     }
 
     /**
-     * Create an instance of {@link Cv.EtatCivil.Adresse }
+     * Create an instance of {@link Cv.EtatCivil.Address }
      * 
      */
-    public Cv.EtatCivil.Adresse createCvEtatCivilAdresse() {
-        return new Cv.EtatCivil.Adresse();
+    public Cv.EtatCivil.Address createCvEtatCivilAddress() {
+        return new Cv.EtatCivil.Address();
     }
 
 }

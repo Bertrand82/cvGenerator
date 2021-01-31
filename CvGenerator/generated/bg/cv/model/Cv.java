@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.8-b130911.1802 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2021.01.29 à 11:08:21 AM CET 
+// Généré le : 2021.01.31 à 07:08:30 PM CET 
 //
 
 
@@ -36,17 +36,19 @@ import javax.xml.bind.annotation.XmlValue;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="nom" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                   &lt;element name="prenom" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                   &lt;element name="telephone" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="first-name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="date-of-birth" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *                   &lt;element name="photo-path" type="{http://www.w3.org/2001/XMLSchema}anyType" minOccurs="0"/>
+ *                   &lt;element name="telephon" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                   &lt;element name="email" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                   &lt;element name="adresse">
+ *                   &lt;element name="address">
  *                     &lt;complexType>
  *                       &lt;complexContent>
  *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                           &lt;sequence>
  *                             &lt;element name="ligne1" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                             &lt;element name="ligne2" type="{http://www.w3.org/2001/XMLSchema}anyType"/>
+ *                             &lt;element name="ligne2" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *                             &lt;element name="city" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                             &lt;element name="zipCode" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *                             &lt;element name="country" type="{http://www.w3.org/2001/XMLSchema}string"/>
@@ -60,17 +62,17 @@ import javax.xml.bind.annotation.XmlValue;
  *             &lt;/complexContent>
  *           &lt;/complexType>
  *         &lt;/element>
- *         &lt;element name="formations">
+ *         &lt;element name="educations">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="formation" maxOccurs="unbounded">
+ *                   &lt;element name="education" maxOccurs="unbounded">
  *                     &lt;complexType>
  *                       &lt;complexContent>
  *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                           &lt;sequence>
- *                             &lt;element name="diplome" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                             &lt;element name="diploma" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                             &lt;element name="school" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                             &lt;element name="year" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *                           &lt;/sequence>
@@ -135,11 +137,11 @@ import javax.xml.bind.annotation.XmlValue;
  *                       &lt;complexContent>
  *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                           &lt;all>
- *                             &lt;element name="experienceTitre" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                             &lt;element name="experienceTitle" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                             &lt;element name="dateStart" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                             &lt;element name="dateEnd" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                             &lt;element name="typeDeContrat" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                             &lt;element name="lieuGeographique">
+ *                             &lt;element name="typeOfContract" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                             &lt;element name="location">
  *                               &lt;complexType>
  *                                 &lt;complexContent>
  *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -151,13 +153,13 @@ import javax.xml.bind.annotation.XmlValue;
  *                                 &lt;/complexContent>
  *                               &lt;/complexType>
  *                             &lt;/element>
- *                             &lt;element name="entreprise">
+ *                             &lt;element name="company">
  *                               &lt;complexType>
  *                                 &lt;complexContent>
  *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                                     &lt;sequence>
- *                                       &lt;element name="nom" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                                       &lt;element name="info" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                                       &lt;element name="companyName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                                       &lt;element name="companyInfos" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                                     &lt;/sequence>
  *                                   &lt;/restriction>
  *                                 &lt;/complexContent>
@@ -199,7 +201,7 @@ import javax.xml.bind.annotation.XmlValue;
 @XmlType(name = "", propOrder = {
     "title",
     "etatCivil",
-    "formations",
+    "educations",
     "languages",
     "skills",
     "experiences"
@@ -212,7 +214,7 @@ public class Cv {
     @XmlElement(required = true)
     protected Cv.EtatCivil etatCivil;
     @XmlElement(required = true)
-    protected Cv.Formations formations;
+    protected Cv.Educations educations;
     @XmlElement(required = true)
     protected Cv.Languages languages;
     @XmlElement(required = true)
@@ -269,27 +271,27 @@ public class Cv {
     }
 
     /**
-     * Obtient la valeur de la propriété formations.
+     * Obtient la valeur de la propriété educations.
      * 
      * @return
      *     possible object is
-     *     {@link Cv.Formations }
+     *     {@link Cv.Educations }
      *     
      */
-    public Cv.Formations getFormations() {
-        return formations;
+    public Cv.Educations getEducations() {
+        return educations;
     }
 
     /**
-     * Définit la valeur de la propriété formations.
+     * Définit la valeur de la propriété educations.
      * 
      * @param value
      *     allowed object is
-     *     {@link Cv.Formations }
+     *     {@link Cv.Educations }
      *     
      */
-    public void setFormations(Cv.Formations value) {
-        this.formations = value;
+    public void setEducations(Cv.Educations value) {
+        this.educations = value;
     }
 
     /**
@@ -380,17 +382,193 @@ public class Cv {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element name="nom" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *         &lt;element name="prenom" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *         &lt;element name="telephone" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="education" maxOccurs="unbounded">
+     *           &lt;complexType>
+     *             &lt;complexContent>
+     *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     *                 &lt;sequence>
+     *                   &lt;element name="diploma" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                   &lt;element name="school" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                   &lt;element name="year" type="{http://www.w3.org/2001/XMLSchema}int"/>
+     *                 &lt;/sequence>
+     *               &lt;/restriction>
+     *             &lt;/complexContent>
+     *           &lt;/complexType>
+     *         &lt;/element>
+     *       &lt;/sequence>
+     *     &lt;/restriction>
+     *   &lt;/complexContent>
+     * &lt;/complexType>
+     * </pre>
+     * 
+     * 
+     */
+    @XmlAccessorType(XmlAccessType.FIELD)
+    @XmlType(name = "", propOrder = {
+        "education"
+    })
+    public static class Educations {
+
+        @XmlElement(required = true)
+        protected List<Cv.Educations.Education> education;
+
+        /**
+         * Gets the value of the education property.
+         * 
+         * <p>
+         * This accessor method returns a reference to the live list,
+         * not a snapshot. Therefore any modification you make to the
+         * returned list will be present inside the JAXB object.
+         * This is why there is not a <CODE>set</CODE> method for the education property.
+         * 
+         * <p>
+         * For example, to add a new item, do as follows:
+         * <pre>
+         *    getEducation().add(newItem);
+         * </pre>
+         * 
+         * 
+         * <p>
+         * Objects of the following type(s) are allowed in the list
+         * {@link Cv.Educations.Education }
+         * 
+         * 
+         */
+        public List<Cv.Educations.Education> getEducation() {
+            if (education == null) {
+                education = new ArrayList<Cv.Educations.Education>();
+            }
+            return this.education;
+        }
+
+
+        /**
+         * <p>Classe Java pour anonymous complex type.
+         * 
+         * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+         * 
+         * <pre>
+         * &lt;complexType>
+         *   &lt;complexContent>
+         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         *       &lt;sequence>
+         *         &lt;element name="diploma" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *         &lt;element name="school" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *         &lt;element name="year" type="{http://www.w3.org/2001/XMLSchema}int"/>
+         *       &lt;/sequence>
+         *     &lt;/restriction>
+         *   &lt;/complexContent>
+         * &lt;/complexType>
+         * </pre>
+         * 
+         * 
+         */
+        @XmlAccessorType(XmlAccessType.FIELD)
+        @XmlType(name = "", propOrder = {
+            "diploma",
+            "school",
+            "year"
+        })
+        public static class Education {
+
+            @XmlElement(required = true)
+            protected String diploma;
+            @XmlElement(required = true)
+            protected String school;
+            protected int year;
+
+            /**
+             * Obtient la valeur de la propriété diploma.
+             * 
+             * @return
+             *     possible object is
+             *     {@link String }
+             *     
+             */
+            public String getDiploma() {
+                return diploma;
+            }
+
+            /**
+             * Définit la valeur de la propriété diploma.
+             * 
+             * @param value
+             *     allowed object is
+             *     {@link String }
+             *     
+             */
+            public void setDiploma(String value) {
+                this.diploma = value;
+            }
+
+            /**
+             * Obtient la valeur de la propriété school.
+             * 
+             * @return
+             *     possible object is
+             *     {@link String }
+             *     
+             */
+            public String getSchool() {
+                return school;
+            }
+
+            /**
+             * Définit la valeur de la propriété school.
+             * 
+             * @param value
+             *     allowed object is
+             *     {@link String }
+             *     
+             */
+            public void setSchool(String value) {
+                this.school = value;
+            }
+
+            /**
+             * Obtient la valeur de la propriété year.
+             * 
+             */
+            public int getYear() {
+                return year;
+            }
+
+            /**
+             * Définit la valeur de la propriété year.
+             * 
+             */
+            public void setYear(int value) {
+                this.year = value;
+            }
+
+        }
+
+    }
+
+
+    /**
+     * <p>Classe Java pour anonymous complex type.
+     * 
+     * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+     * 
+     * <pre>
+     * &lt;complexType>
+     *   &lt;complexContent>
+     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     *       &lt;sequence>
+     *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="first-name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="date-of-birth" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+     *         &lt;element name="photo-path" type="{http://www.w3.org/2001/XMLSchema}anyType" minOccurs="0"/>
+     *         &lt;element name="telephon" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *         &lt;element name="email" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *         &lt;element name="adresse">
+     *         &lt;element name="address">
      *           &lt;complexType>
      *             &lt;complexContent>
      *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *                 &lt;sequence>
      *                   &lt;element name="ligne1" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="ligne2" type="{http://www.w3.org/2001/XMLSchema}anyType"/>
+     *                   &lt;element name="ligne2" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
      *                   &lt;element name="city" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                   &lt;element name="zipCode" type="{http://www.w3.org/2001/XMLSchema}int"/>
      *                   &lt;element name="country" type="{http://www.w3.org/2001/XMLSchema}string"/>
@@ -409,95 +587,149 @@ public class Cv {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "nom",
-        "prenom",
-        "telephone",
+        "name",
+        "firstName",
+        "dateOfBirth",
+        "photoPath",
+        "telephon",
         "email",
-        "adresse"
+        "address"
     })
     public static class EtatCivil {
 
         @XmlElement(required = true)
-        protected String nom;
+        protected String name;
+        @XmlElement(name = "first-name", required = true)
+        protected String firstName;
+        @XmlElement(name = "date-of-birth")
+        protected String dateOfBirth;
+        @XmlElement(name = "photo-path")
+        protected Object photoPath;
         @XmlElement(required = true)
-        protected String prenom;
-        @XmlElement(required = true)
-        protected String telephone;
+        protected String telephon;
         @XmlElement(required = true)
         protected String email;
         @XmlElement(required = true)
-        protected Cv.EtatCivil.Adresse adresse;
+        protected Cv.EtatCivil.Address address;
 
         /**
-         * Obtient la valeur de la propriété nom.
+         * Obtient la valeur de la propriété name.
          * 
          * @return
          *     possible object is
          *     {@link String }
          *     
          */
-        public String getNom() {
-            return nom;
+        public String getName() {
+            return name;
         }
 
         /**
-         * Définit la valeur de la propriété nom.
+         * Définit la valeur de la propriété name.
          * 
          * @param value
          *     allowed object is
          *     {@link String }
          *     
          */
-        public void setNom(String value) {
-            this.nom = value;
+        public void setName(String value) {
+            this.name = value;
         }
 
         /**
-         * Obtient la valeur de la propriété prenom.
+         * Obtient la valeur de la propriété firstName.
          * 
          * @return
          *     possible object is
          *     {@link String }
          *     
          */
-        public String getPrenom() {
-            return prenom;
+        public String getFirstName() {
+            return firstName;
         }
 
         /**
-         * Définit la valeur de la propriété prenom.
+         * Définit la valeur de la propriété firstName.
          * 
          * @param value
          *     allowed object is
          *     {@link String }
          *     
          */
-        public void setPrenom(String value) {
-            this.prenom = value;
+        public void setFirstName(String value) {
+            this.firstName = value;
         }
 
         /**
-         * Obtient la valeur de la propriété telephone.
+         * Obtient la valeur de la propriété dateOfBirth.
          * 
          * @return
          *     possible object is
          *     {@link String }
          *     
          */
-        public String getTelephone() {
-            return telephone;
+        public String getDateOfBirth() {
+            return dateOfBirth;
         }
 
         /**
-         * Définit la valeur de la propriété telephone.
+         * Définit la valeur de la propriété dateOfBirth.
          * 
          * @param value
          *     allowed object is
          *     {@link String }
          *     
          */
-        public void setTelephone(String value) {
-            this.telephone = value;
+        public void setDateOfBirth(String value) {
+            this.dateOfBirth = value;
+        }
+
+        /**
+         * Obtient la valeur de la propriété photoPath.
+         * 
+         * @return
+         *     possible object is
+         *     {@link Object }
+         *     
+         */
+        public Object getPhotoPath() {
+            return photoPath;
+        }
+
+        /**
+         * Définit la valeur de la propriété photoPath.
+         * 
+         * @param value
+         *     allowed object is
+         *     {@link Object }
+         *     
+         */
+        public void setPhotoPath(Object value) {
+            this.photoPath = value;
+        }
+
+        /**
+         * Obtient la valeur de la propriété telephon.
+         * 
+         * @return
+         *     possible object is
+         *     {@link String }
+         *     
+         */
+        public String getTelephon() {
+            return telephon;
+        }
+
+        /**
+         * Définit la valeur de la propriété telephon.
+         * 
+         * @param value
+         *     allowed object is
+         *     {@link String }
+         *     
+         */
+        public void setTelephon(String value) {
+            this.telephon = value;
         }
 
         /**
@@ -525,27 +757,27 @@ public class Cv {
         }
 
         /**
-         * Obtient la valeur de la propriété adresse.
+         * Obtient la valeur de la propriété address.
          * 
          * @return
          *     possible object is
-         *     {@link Cv.EtatCivil.Adresse }
+         *     {@link Cv.EtatCivil.Address }
          *     
          */
-        public Cv.EtatCivil.Adresse getAdresse() {
-            return adresse;
+        public Cv.EtatCivil.Address getAddress() {
+            return address;
         }
 
         /**
-         * Définit la valeur de la propriété adresse.
+         * Définit la valeur de la propriété address.
          * 
          * @param value
          *     allowed object is
-         *     {@link Cv.EtatCivil.Adresse }
+         *     {@link Cv.EtatCivil.Address }
          *     
          */
-        public void setAdresse(Cv.EtatCivil.Adresse value) {
-            this.adresse = value;
+        public void setAddress(Cv.EtatCivil.Address value) {
+            this.address = value;
         }
 
 
@@ -560,7 +792,7 @@ public class Cv {
          *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
          *       &lt;sequence>
          *         &lt;element name="ligne1" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="ligne2" type="{http://www.w3.org/2001/XMLSchema}anyType"/>
+         *         &lt;element name="ligne2" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
          *         &lt;element name="city" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *         &lt;element name="zipCode" type="{http://www.w3.org/2001/XMLSchema}int"/>
          *         &lt;element name="country" type="{http://www.w3.org/2001/XMLSchema}string"/>
@@ -580,12 +812,11 @@ public class Cv {
             "zipCode",
             "country"
         })
-        public static class Adresse {
+        public static class Address {
 
             @XmlElement(required = true)
             protected String ligne1;
-            @XmlElement(required = true)
-            protected Object ligne2;
+            protected String ligne2;
             @XmlElement(required = true)
             protected String city;
             protected int zipCode;
@@ -621,10 +852,10 @@ public class Cv {
              * 
              * @return
              *     possible object is
-             *     {@link Object }
+             *     {@link String }
              *     
              */
-            public Object getLigne2() {
+            public String getLigne2() {
                 return ligne2;
             }
 
@@ -633,10 +864,10 @@ public class Cv {
              * 
              * @param value
              *     allowed object is
-             *     {@link Object }
+             *     {@link String }
              *     
              */
-            public void setLigne2(Object value) {
+            public void setLigne2(String value) {
                 this.ligne2 = value;
             }
 
@@ -724,11 +955,11 @@ public class Cv {
      *             &lt;complexContent>
      *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *                 &lt;all>
-     *                   &lt;element name="experienceTitre" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                   &lt;element name="experienceTitle" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                   &lt;element name="dateStart" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                   &lt;element name="dateEnd" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="typeDeContrat" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="lieuGeographique">
+     *                   &lt;element name="typeOfContract" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                   &lt;element name="location">
      *                     &lt;complexType>
      *                       &lt;complexContent>
      *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -740,13 +971,13 @@ public class Cv {
      *                       &lt;/complexContent>
      *                     &lt;/complexType>
      *                   &lt;/element>
-     *                   &lt;element name="entreprise">
+     *                   &lt;element name="company">
      *                     &lt;complexType>
      *                       &lt;complexContent>
      *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *                           &lt;sequence>
-     *                             &lt;element name="nom" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                             &lt;element name="info" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                             &lt;element name="companyName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                             &lt;element name="companyInfos" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                           &lt;/sequence>
      *                         &lt;/restriction>
      *                       &lt;/complexContent>
@@ -828,11 +1059,11 @@ public class Cv {
          *   &lt;complexContent>
          *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
          *       &lt;all>
-         *         &lt;element name="experienceTitre" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *         &lt;element name="experienceTitle" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *         &lt;element name="dateStart" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *         &lt;element name="dateEnd" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="typeDeContrat" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="lieuGeographique">
+         *         &lt;element name="typeOfContract" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *         &lt;element name="location">
          *           &lt;complexType>
          *             &lt;complexContent>
          *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -844,13 +1075,13 @@ public class Cv {
          *             &lt;/complexContent>
          *           &lt;/complexType>
          *         &lt;/element>
-         *         &lt;element name="entreprise">
+         *         &lt;element name="company">
          *           &lt;complexType>
          *             &lt;complexContent>
          *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
          *                 &lt;sequence>
-         *                   &lt;element name="nom" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *                   &lt;element name="info" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *                   &lt;element name="companyName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *                   &lt;element name="companyInfos" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *                 &lt;/sequence>
          *               &lt;/restriction>
          *             &lt;/complexContent>
@@ -885,17 +1116,17 @@ public class Cv {
         public static class Experience {
 
             @XmlElement(required = true)
-            protected String experienceTitre;
+            protected String experienceTitle;
             @XmlElement(required = true)
             protected String dateStart;
             @XmlElement(required = true)
             protected String dateEnd;
             @XmlElement(required = true, nillable = true)
-            protected String typeDeContrat;
+            protected String typeOfContract;
             @XmlElement(required = true)
-            protected Cv.Experiences.Experience.LieuGeographique lieuGeographique;
+            protected Cv.Experiences.Experience.Location location;
             @XmlElement(required = true)
-            protected Cv.Experiences.Experience.Entreprise entreprise;
+            protected Cv.Experiences.Experience.Company company;
             @XmlElement(required = true)
             protected String context;
             @XmlElement(required = true)
@@ -906,27 +1137,27 @@ public class Cv {
             protected String technos;
 
             /**
-             * Obtient la valeur de la propriété experienceTitre.
+             * Obtient la valeur de la propriété experienceTitle.
              * 
              * @return
              *     possible object is
              *     {@link String }
              *     
              */
-            public String getExperienceTitre() {
-                return experienceTitre;
+            public String getExperienceTitle() {
+                return experienceTitle;
             }
 
             /**
-             * Définit la valeur de la propriété experienceTitre.
+             * Définit la valeur de la propriété experienceTitle.
              * 
              * @param value
              *     allowed object is
              *     {@link String }
              *     
              */
-            public void setExperienceTitre(String value) {
-                this.experienceTitre = value;
+            public void setExperienceTitle(String value) {
+                this.experienceTitle = value;
             }
 
             /**
@@ -978,75 +1209,75 @@ public class Cv {
             }
 
             /**
-             * Obtient la valeur de la propriété typeDeContrat.
+             * Obtient la valeur de la propriété typeOfContract.
              * 
              * @return
              *     possible object is
              *     {@link String }
              *     
              */
-            public String getTypeDeContrat() {
-                return typeDeContrat;
+            public String getTypeOfContract() {
+                return typeOfContract;
             }
 
             /**
-             * Définit la valeur de la propriété typeDeContrat.
+             * Définit la valeur de la propriété typeOfContract.
              * 
              * @param value
              *     allowed object is
              *     {@link String }
              *     
              */
-            public void setTypeDeContrat(String value) {
-                this.typeDeContrat = value;
+            public void setTypeOfContract(String value) {
+                this.typeOfContract = value;
             }
 
             /**
-             * Obtient la valeur de la propriété lieuGeographique.
+             * Obtient la valeur de la propriété location.
              * 
              * @return
              *     possible object is
-             *     {@link Cv.Experiences.Experience.LieuGeographique }
+             *     {@link Cv.Experiences.Experience.Location }
              *     
              */
-            public Cv.Experiences.Experience.LieuGeographique getLieuGeographique() {
-                return lieuGeographique;
+            public Cv.Experiences.Experience.Location getLocation() {
+                return location;
             }
 
             /**
-             * Définit la valeur de la propriété lieuGeographique.
+             * Définit la valeur de la propriété location.
              * 
              * @param value
              *     allowed object is
-             *     {@link Cv.Experiences.Experience.LieuGeographique }
+             *     {@link Cv.Experiences.Experience.Location }
              *     
              */
-            public void setLieuGeographique(Cv.Experiences.Experience.LieuGeographique value) {
-                this.lieuGeographique = value;
+            public void setLocation(Cv.Experiences.Experience.Location value) {
+                this.location = value;
             }
 
             /**
-             * Obtient la valeur de la propriété entreprise.
+             * Obtient la valeur de la propriété company.
              * 
              * @return
              *     possible object is
-             *     {@link Cv.Experiences.Experience.Entreprise }
+             *     {@link Cv.Experiences.Experience.Company }
              *     
              */
-            public Cv.Experiences.Experience.Entreprise getEntreprise() {
-                return entreprise;
+            public Cv.Experiences.Experience.Company getCompany() {
+                return company;
             }
 
             /**
-             * Définit la valeur de la propriété entreprise.
+             * Définit la valeur de la propriété company.
              * 
              * @param value
              *     allowed object is
-             *     {@link Cv.Experiences.Experience.Entreprise }
+             *     {@link Cv.Experiences.Experience.Company }
              *     
              */
-            public void setEntreprise(Cv.Experiences.Experience.Entreprise value) {
-                this.entreprise = value;
+            public void setCompany(Cv.Experiences.Experience.Company value) {
+                this.company = value;
             }
 
             /**
@@ -1156,8 +1387,8 @@ public class Cv {
              *   &lt;complexContent>
              *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
              *       &lt;sequence>
-             *         &lt;element name="nom" type="{http://www.w3.org/2001/XMLSchema}string"/>
-             *         &lt;element name="info" type="{http://www.w3.org/2001/XMLSchema}string"/>
+             *         &lt;element name="companyName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+             *         &lt;element name="companyInfos" type="{http://www.w3.org/2001/XMLSchema}string"/>
              *       &lt;/sequence>
              *     &lt;/restriction>
              *   &lt;/complexContent>
@@ -1168,62 +1399,62 @@ public class Cv {
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "nom",
-                "info"
+                "companyName",
+                "companyInfos"
             })
-            public static class Entreprise {
+            public static class Company {
 
                 @XmlElement(required = true)
-                protected String nom;
+                protected String companyName;
                 @XmlElement(required = true)
-                protected String info;
+                protected String companyInfos;
 
                 /**
-                 * Obtient la valeur de la propriété nom.
+                 * Obtient la valeur de la propriété companyName.
                  * 
                  * @return
                  *     possible object is
                  *     {@link String }
                  *     
                  */
-                public String getNom() {
-                    return nom;
+                public String getCompanyName() {
+                    return companyName;
                 }
 
                 /**
-                 * Définit la valeur de la propriété nom.
+                 * Définit la valeur de la propriété companyName.
                  * 
                  * @param value
                  *     allowed object is
                  *     {@link String }
                  *     
                  */
-                public void setNom(String value) {
-                    this.nom = value;
+                public void setCompanyName(String value) {
+                    this.companyName = value;
                 }
 
                 /**
-                 * Obtient la valeur de la propriété info.
+                 * Obtient la valeur de la propriété companyInfos.
                  * 
                  * @return
                  *     possible object is
                  *     {@link String }
                  *     
                  */
-                public String getInfo() {
-                    return info;
+                public String getCompanyInfos() {
+                    return companyInfos;
                 }
 
                 /**
-                 * Définit la valeur de la propriété info.
+                 * Définit la valeur de la propriété companyInfos.
                  * 
                  * @param value
                  *     allowed object is
                  *     {@link String }
                  *     
                  */
-                public void setInfo(String value) {
-                    this.info = value;
+                public void setCompanyInfos(String value) {
+                    this.companyInfos = value;
                 }
 
             }
@@ -1254,7 +1485,7 @@ public class Cv {
                 "city",
                 "country"
             })
-            public static class LieuGeographique {
+            public static class Location {
 
                 @XmlElement(required = true)
                 protected String city;
@@ -1369,180 +1600,6 @@ public class Cv {
                     return this.task;
                 }
 
-            }
-
-        }
-
-    }
-
-
-    /**
-     * <p>Classe Java pour anonymous complex type.
-     * 
-     * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
-     * 
-     * <pre>
-     * &lt;complexType>
-     *   &lt;complexContent>
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *       &lt;sequence>
-     *         &lt;element name="formation" maxOccurs="unbounded">
-     *           &lt;complexType>
-     *             &lt;complexContent>
-     *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                 &lt;sequence>
-     *                   &lt;element name="diplome" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="school" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="year" type="{http://www.w3.org/2001/XMLSchema}int"/>
-     *                 &lt;/sequence>
-     *               &lt;/restriction>
-     *             &lt;/complexContent>
-     *           &lt;/complexType>
-     *         &lt;/element>
-     *       &lt;/sequence>
-     *     &lt;/restriction>
-     *   &lt;/complexContent>
-     * &lt;/complexType>
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "formation"
-    })
-    public static class Formations {
-
-        @XmlElement(required = true)
-        protected List<Cv.Formations.Formation> formation;
-
-        /**
-         * Gets the value of the formation property.
-         * 
-         * <p>
-         * This accessor method returns a reference to the live list,
-         * not a snapshot. Therefore any modification you make to the
-         * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the formation property.
-         * 
-         * <p>
-         * For example, to add a new item, do as follows:
-         * <pre>
-         *    getFormation().add(newItem);
-         * </pre>
-         * 
-         * 
-         * <p>
-         * Objects of the following type(s) are allowed in the list
-         * {@link Cv.Formations.Formation }
-         * 
-         * 
-         */
-        public List<Cv.Formations.Formation> getFormation() {
-            if (formation == null) {
-                formation = new ArrayList<Cv.Formations.Formation>();
-            }
-            return this.formation;
-        }
-
-
-        /**
-         * <p>Classe Java pour anonymous complex type.
-         * 
-         * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="diplome" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="school" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="year" type="{http://www.w3.org/2001/XMLSchema}int"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
-        @XmlAccessorType(XmlAccessType.FIELD)
-        @XmlType(name = "", propOrder = {
-            "diplome",
-            "school",
-            "year"
-        })
-        public static class Formation {
-
-            @XmlElement(required = true)
-            protected String diplome;
-            @XmlElement(required = true)
-            protected String school;
-            protected int year;
-
-            /**
-             * Obtient la valeur de la propriété diplome.
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
-             */
-            public String getDiplome() {
-                return diplome;
-            }
-
-            /**
-             * Définit la valeur de la propriété diplome.
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
-             */
-            public void setDiplome(String value) {
-                this.diplome = value;
-            }
-
-            /**
-             * Obtient la valeur de la propriété school.
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
-             */
-            public String getSchool() {
-                return school;
-            }
-
-            /**
-             * Définit la valeur de la propriété school.
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
-             */
-            public void setSchool(String value) {
-                this.school = value;
-            }
-
-            /**
-             * Obtient la valeur de la propriété year.
-             * 
-             */
-            public int getYear() {
-                return year;
-            }
-
-            /**
-             * Définit la valeur de la propriété year.
-             * 
-             */
-            public void setYear(int value) {
-                this.year = value;
             }
 
         }

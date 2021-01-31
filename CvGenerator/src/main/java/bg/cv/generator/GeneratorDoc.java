@@ -7,7 +7,7 @@ import java.util.List;
 import bg.cv.model.Cv;
 import bg.cv.model.Cv.EtatCivil;
 import bg.cv.model.Cv.Experiences.Experience;
-import bg.cv.model.Cv.Formations.Formation;
+
 import bg.cv.model.Cv.Skills;
 import bg.cv.model.Cv.Skills.Skill;
 
@@ -40,15 +40,16 @@ public class GeneratorDoc {
 
 		this.debutParagraphe();
 
-		addLigne(cvEtatCivil.getPrenom() + " " + cvEtatCivil.getNom());
+		addLigne(cvEtatCivil.getFirstName() + " " + cvEtatCivil.getName());
+		
 		addBreak();
-		addLigne(cvEtatCivil.getAdresse().getLigne1());
-		addLigne(cvEtatCivil.getAdresse().getLigne2());
+		addLigne(cvEtatCivil.getAddress().getLigne1());
+		addLigne(cvEtatCivil.getAddress().getLigne2());
 
-		addLigne(cvEtatCivil.getAdresse().getZipCode() + "  " + cvEtatCivil.getAdresse().getCity());
+		addLigne(cvEtatCivil.getAddress().getZipCode() + "  " + cvEtatCivil.getAddress().getCity());
 		addBreak();
 		addLigne(cvEtatCivil.getEmail());
-		addLigne(cvEtatCivil.getTelephone());
+		addLigne(cvEtatCivil.getTelephon());
 
 		finParagraphe();
 	}
@@ -58,8 +59,8 @@ public class GeneratorDoc {
 
 		addTitle2("Formation");
 
-		Cv.Formations formations = this.cv.getFormations();
-		formations.getFormation().forEach((formation) ->addLigne(formation.getDiplome(), formation.getSchool(), formation.getYear())); 
+		Cv.Educations education = this.cv.getEducations();
+		education.getEducation().forEach((edu) ->addLigne(edu.getDiploma(), edu.getSchool(), edu.getYear())); 
 		
 		addBreak();
 		finParagraphe();
@@ -95,7 +96,7 @@ public class GeneratorDoc {
 		debutParagraphe();
 		addLigne("   ");
 		String s = "" + experience.getDateStart() + " au " + experience.getDateEnd() + "  "
-				+ experience.getEntreprise().getNom() + "  : " + experience.getExperienceTitre();
+				+ experience.getCompany().getCompanyName() + "  : " + experience.getExperienceTitle();
 		addTitle2(s);
 		addLigneAndTrim(experience.getContext());
 		addLigne(experience.getMyGoal());

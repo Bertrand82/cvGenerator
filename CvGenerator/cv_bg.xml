@@ -4,26 +4,28 @@
 
 	<title>Expert Java et J2EE</title>
 	<etatCivil>
-		<nom>Guiral</nom>
-		<prenom>Bertrand</prenom>
-		<telephone>0682426361</telephone>
+		<name>Guiral</name>
+		<first-name>Bertrand</first-name>
+		<date-of-birth>26/08/1958</date-of-birth>
+		<photo-path>images/bertrand.jpg</photo-path>
+		<telephon>0682426361</telephon>
 		<email>bertrand.guiral@gmail.com</email>
-		<adresse>
+		<address>
 			<ligne1>2 rue Cariben</ligne1>
 			<ligne2></ligne2>
 			<city>Montpezat de Quercy</city>
 			<zipCode>82270</zipCode>
 			<country>France</country>
-		</adresse>
+		</address>
 
 	</etatCivil>
-	<formations>
-		<formation>
-			<diplome>Ingénieur</diplome>
+	<educations>
+		<education>
+			<diploma>Ingénieur</diploma>
 			<school>Sup'aéro</school>
 			<year>1985</year>
-		</formation>
-	</formations>
+		</education>
+	</educations>
 	<languages>
 		<language>
 			<name>Anglais</name>
@@ -64,20 +66,20 @@
 	
 	<experiences>
 		<experience>
-			<experienceTitre>Concepteur-développeur d'une application Android
-			</experienceTitre>
+			<experienceTitle>Concepteur-développeur d'une application Android
+			</experienceTitle>
 			<dateStart>1/12/2020</dateStart>
 			<dateEnd>31/01/2021</dateEnd>
-			<typeDeContrat>Freelance</typeDeContrat>
-			<lieuGeographique>
+			<typeOfContract>Freelance</typeOfContract>
+			<location>
 				<city>Montpezat de Quercy</city>
 				<country>France</country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Perso</nom>
-				<info></info>
-			</entreprise>
-			<context>Maintenance (réécriture) d'une application que j'ai développé en 2015. Prise en compte des évolutions de l'ergonomie conseillée pour les applis  embarquées(Gestion des annotations ). Chaque appel téléphonique ou sms est enregistré dans l’agenda (typiquement l’agenda google de l’utilisateur, mais peut être aussi un agenda collectif et partagé), avec éventuellement une annotation rajoutée par l'utilisateur. Cet agenda fait office de base de données répartie et synchronisée.
+			</location>
+			<company>
+				<companyName>Perso</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Maintenance (réécriture) d'une application que j'ai développé en 2015. Prise en compte des évolutions de l'ergocompanyNameie conseillée pour les applis  embarquées(Gestion des annotations ). Chaque appel téléphonique ou sms est enregistré dans l’agenda (typiquement l’agenda google de l’utilisateur, mais peut être aussi un agenda collectif et partagé), avec éventuellement une annotation rajoutée par l'utilisateur. Cet agenda fait office de base de données répartie et synchronisée.
 Des écrans de consultation de l’historique permettent de consulter les appels à la façon d’un crm (Customer Relationship Management).</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -88,18 +90,18 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 		</experience>
 
 		<experience>
-			<experienceTitre>Concepteur-développeur J2EE</experienceTitre>
-			<typeDeContrat>Freelance</typeDeContrat>
+			<experienceTitle>Concepteur-développeur J2EE</experienceTitle>
+			<typeOfContract>Freelance</typeOfContract>
 			<dateStart>1/02/2019</dateStart>
 			<dateEnd>30/11/2020</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Montauban</city>
 				<country>France</country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>iMSA</nom>
-				<info>Mutuelle Sociale Agricole</info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>iMSA</companyName>
+				<companyInfos>Mutuelle Sociale Agricole</companyInfos>
+			</company>
 			<context>Gestion des "feuilles maladies" de la sécurité sociale</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -115,19 +117,19 @@ Des écrans de consultation de l’historique permettent de consulter les appels
 
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freeLance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freeLance</typeOfContract>
 			<dateStart>1/09/2018</dateStart>
 			<dateEnd>30/12/2018</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country>France</country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>GFI pour Aéroport de Paris </nom>
-				<info></info>
-			</entreprise>
-			<context>Réalisation d’un POC du Système d’information de l’aéroport de Paris.
+			</location>
+			<company>
+				<companyName>GFI pour Aéroport de Paris </companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Réalisation d’un POC du Système d’companyInfosrmation de l’aéroport de Paris.
 Génération automatique d’une application Spring Boot à partir d’une modélisation uml des données. 
 L’application et les bases de données devait atteindre certains critères de redondances de sécurité (jwt Json Web Token) et être re-déployé sur AWS (Amazon) tous les jours.
 L’ensemble (génération de l’appli, instanciation et déploiement ) était automatique.
@@ -140,19 +142,19 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>1/04/2019</dateStart>
 			<dateEnd>30/08/2019</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Air France</city>
 				<country>France</country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Air France</nom>
-				<info></info>
-			</entreprise>
-			<context>Participation à la conception et à la réalisation d’une application web. J’avais en charge la prise en compte de la partie sécurité (jwt), avec l’intégration dans le système d’authentification de l’entreprise.
+			</location>
+			<company>
+				<companyName>Air France</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Participation à la conception et à la réalisation d’une application web. J’avais en charge la prise en compte de la partie sécurité (jwt), avec l’intégration dans le système d’authentification de l’company.
 			</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -165,18 +167,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>1/12/2016</dateStart>
 			<dateEnd>1/03/2018</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Montauban</city>
 				<country>France</country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>iMSA</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>iMSA</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
@@ -187,19 +189,19 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>1/02/2015</dateStart>
 			<dateEnd>1/09/2016</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Marseille, Aix-en-Provence, Massy, Les Clayes-sous-Bois, Paris </city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Bull Atos pour ministère de la Défense</nom>
-				<info></info>
-			</entreprise>
-			<context>Maintenance et évolution de l'application SIGALE (Système d'Information, de Gestion et d'Administration des Licences d'Exportation). 
+			</location>
+			<company>
+				<companyName>Bull Atos pour ministère de la Défense</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Maintenance et évolution de l'application SIGALE (Système d'companyInfosrmation, de Gestion et d'Administration des Licences d'Exportation). 
 			</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -210,18 +212,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<technos>Java, J2EE, JSF, Spring, Hibernate, jasper , BPMN</technos>
 		</experience>
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>01/08/2012</dateStart>
 			<dateEnd>30/12/2014</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Steria</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Steria</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Maintenance et évolution d’une application distribuée (java, j2ee, web services, client lourd) de gestions des cartes électroniques dans le milieu spatial.</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -232,18 +234,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			</technos>
 		</experience>
 		<experience>
-			<experienceTitre>Formateur</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Formateur</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>1/12/2011</dateStart>
 			<dateEnd>1/07/2012</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Nantes, Lille, PAris, Genève, La Ciotat</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Sopra Nantes, Egilia, Boomerang Consulting</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Sopra Nantes, Egilia, Boomerang Consulting</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Pour le compte de divers organismes de formation, j'étais formateur essentiellement en java</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -252,18 +254,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<technos></technos>
 		</experience>
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat></typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract></typeOfContract>
 			<dateStart>15/10/2011</dateStart>
 			<dateEnd>30/12/2011</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Sogeti pour airbus </nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Sogeti pour airbus </companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Renfort d’une équipe en phase de livraison. Participation à la réalisation d’ une application embarquée sur des avions de lignes dans différents environnements
 			</context>
 			<myGoal></myGoal>
@@ -274,18 +276,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>15/06/2011</dateStart>
 			<dateEnd>14/10/2011</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Sophia Antipolis</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Amadeus</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Amadeus</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Amadeus souhaitait disposer d'une alternative aux solutions Oracle de clusterisation et de partage des sessions de serveurs d'application</context>
 			<myGoal>Etude et prototypage de l’intégration d’un cache distribué (Infinispan de JBoss) pour le partage des sessions d’un serveur d’application (WebLogic).</myGoal>
 			<tasks>
@@ -295,18 +297,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Formateur génie logiciel</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Formateur génie logiciel</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>24/04/2011</dateStart>
 			<dateEnd>10/06/2011</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Nantes</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Sopra</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Sopra</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Dans le cadre de la conversion de jeunes diplômés aux métiers du logiciel, formateur pour une session de formation Java/J2EE pour Sopra Nantes</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -315,39 +317,39 @@ Une évaluation des performances a été faites par le client (Changement du mod
 			<technos>java, j2ee, sql</technos>
 		</experience>
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>7/02/2011</dateStart>
 			<dateEnd>1/04/2011</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Sopra</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Sopra</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Renforcement  d’une équipe en phase de livraison d’un projet Spring batch pour la Commission Européenne.</context>
 			<myGoal></myGoal>
 			<tasks>
-				<task>Investigation et correction d'anomalies</task>
+				<task>Investigation et correction d'acompanyNamealies</task>
 			</tasks>
 			<technos>Java, spring , spring Batch, Multi thread</technos>
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>7/02/2011</dateStart>
 			<dateEnd>1/04/2011</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>MPPC Technology</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>MPPC Technology</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>MPPC était une startup dans le domaine de l'énergie photovoltaïque. Pour extraire le maximum d'énergie de panneaux solaires ,un  MPPT (Maximum Power Point Tracking) innovant était proposé. J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -359,18 +361,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat></typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract></typeOfContract>
 			<dateStart>01/01/2010</dateStart>
 			<dateEnd>30/05/2010</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Albi</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Sopra Albi</nom>
-				<info>Pour Crédit Agricole</info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Sopra Albi</companyName>
+				<companyInfos>Pour Crédit Agricole</companyInfos>
+			</company>
 			<context>Chargé de la maintenance et des évolutions d’un logiciel de simulation et de commande de crédit bail, puis d’une application de gestion des risques pour la banque Crédit Agricole.</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -381,18 +383,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>01/08/2009</dateStart>
 			<dateEnd>31/12//2009</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Celad</nom>
-				<info>Pour Natixis</info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Celad</companyName>
+				<companyInfos>Pour Natixis</companyInfos>
+			</company>
 			<context>Développement d'une application de vente de tickets restaurants</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -403,18 +405,18 @@ Une évaluation des performances a été faites par le client (Changement du mod
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java , Chef de projet</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java , Chef de projet</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>01/01/2009</dateStart>
 			<dateEnd>31/07/2009</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Celad pour Natixis</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Celad pour Natixis</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Natixis souhaitait une nouvelle gestion  de son catalogue Produits </context>
 			<myGoal>Responsable technique des développements au sein de l’équipe projet COREGE (6 personnes).
 Le projet a été terminé en temps et en heure.
@@ -427,18 +429,18 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Formateur</experienceTitre>
-			<typeDeContrat>freelance</typeDeContrat>
+			<experienceTitle>Formateur</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
 			<dateStart>01/01/2007</dateStart>
 			<dateEnd>31/12/2009</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city></city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom></nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName></companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Formateur pour le compte d'organismes de formation professionnels</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -453,18 +455,18 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>cdi</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
 			<dateStart>01/08/2002</dateStart>
 			<dateEnd>30/10/2006</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Index Multimédia</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Index Multimédia</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
@@ -477,18 +479,18 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>cdi</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
 			<dateStart>01/01/2001</dateStart>
 			<dateEnd>30/06/2002</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Toulouse</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Lyra-Network</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Lyra-Network</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>Premier salarié d'une startup qui est devenue leader mondial de son activité.</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -500,18 +502,18 @@ Le projet a été terminé en temps et en heure.
 
 
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>cdi</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
 			<dateStart>01/05/1999</dateStart>
 			<dateEnd>30/02/2000</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Dublin puis Londres</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Voxsurf</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Voxsurf</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context>La société était une startup qui développait une application de messagerie pour téléphone mobile.</context>
 			<myGoal></myGoal>
 			<tasks>
@@ -522,18 +524,18 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 		
 		<experience>
-			<experienceTitre>Développeur Concepteur Java</experienceTitre>
-			<typeDeContrat>cdi</typeDeContrat>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
 			<dateStart>01/11/1998</dateStart>
 			<dateEnd>30/04/1999</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Paris</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>OZA (Objet de A à Z)</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>OZA (Objet de A à Z)</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
@@ -543,18 +545,18 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Artisan Souffleur de verre</experienceTitre>
-			<typeDeContrat>Indépendant</typeDeContrat>
+			<experienceTitle>Artisan Souffleur de verre</experienceTitle>
+			<typeOfContract>Indépendant</typeOfContract>
 			<dateStart>01/11/1992</dateStart>
 			<dateEnd>01/11/1998</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city></city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom></nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName></companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
@@ -564,19 +566,19 @@ Le projet a été terminé en temps et en heure.
 		</experience>
 
 		<experience>
-			<experienceTitre>Ingénieur</experienceTitre>
-			<typeDeContrat>cdi</typeDeContrat>
+			<experienceTitle>Ingénieur</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
 			<dateStart>01/09/1985</dateStart>
 			<dateEnd>30/10/1992</dateEnd>
-			<lieuGeographique>
+			<location>
 				<city>Bagneux, Biscarosse, Arabie Saoudite, Alamogordo (usa) ,
 					Kourou</city>
 				<country></country>
-			</lieuGeographique>
-			<entreprise>
-				<nom>Thomson-csf</nom>
-				<info></info>
-			</entreprise>
+			</location>
+			<company>
+				<companyName>Thomson-csf</companyName>
+				<companyInfos></companyInfos>
+			</company>
 			<context></context>
 			<myGoal></myGoal>
 			<tasks>
@@ -591,7 +593,7 @@ Le projet a été terminé en temps et en heure.
 				<task>Responsable technique de la réponse à un appel d'offre pour le CNES (Liaison fibre Toulouse / Aussaguel)</task>
 				<task></task>
 			</tasks>
-			<technos>Radar et Hyper fréquences, Traitement d'images, Logiciel temps réel, Instrumentation, Automatisme (Pilotage et guidage de missiles, asservissement de tourelles)  , algorithmie ... </technos>
+			<technos>Radar et Hyper fréquences, Traitement d'images, Logiciel temps réel, Instrumentation, Automatisme (Pilotage et guidage de missiles, asservissement de tourelles), algorithmie ... </technos>
 		</experience>
 
 
