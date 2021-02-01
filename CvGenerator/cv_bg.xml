@@ -28,8 +28,9 @@
 	</educations>
 	<languages>
 		<language>
-			<name>Anglais</name>
-			<level>Courant</level>
+		
+			<languageName>Anglais</languageName>
+			<languageLevel>Courant</languageLevel>
 		</language>
 	</languages>
 	<skills>

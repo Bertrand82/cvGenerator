@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.8-b130911.1802 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2021.02.01 à 08:15:36 AM CET 
+// Généré le : 2021.02.01 à 01:17:17 PM CET 
 //
 
 
@@ -95,8 +95,8 @@ import javax.xml.bind.annotation.XmlValue;
  *                       &lt;complexContent>
  *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                           &lt;sequence>
- *                             &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                             &lt;element name="level" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                             &lt;element name="languageName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                             &lt;element name="languageLevel" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                           &lt;/sequence>
  *                         &lt;/restriction>
  *                       &lt;/complexContent>
@@ -1622,8 +1622,8 @@ public class Cv {
      *             &lt;complexContent>
      *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *                 &lt;sequence>
-     *                   &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="level" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                   &lt;element name="languageName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *                   &lt;element name="languageLevel" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                 &lt;/sequence>
      *               &lt;/restriction>
      *             &lt;/complexContent>
@@ -1686,8 +1686,8 @@ public class Cv {
          *   &lt;complexContent>
          *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
          *       &lt;sequence>
-         *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="level" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *         &lt;element name="languageName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         *         &lt;element name="languageLevel" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *       &lt;/sequence>
          *     &lt;/restriction>
          *   &lt;/complexContent>
@@ -1698,62 +1698,62 @@ public class Cv {
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "name",
-            "level"
+            "languageName",
+            "languageLevel"
         })
         public static class Language {
 
             @XmlElement(required = true)
-            protected String name;
+            protected String languageName;
             @XmlElement(required = true)
-            protected String level;
+            protected String languageLevel;
 
             /**
-             * Obtient la valeur de la propriété name.
+             * Obtient la valeur de la propriété languageName.
              * 
              * @return
              *     possible object is
              *     {@link String }
              *     
              */
-            public String getName() {
-                return name;
+            public String getLanguageName() {
+                return languageName;
             }
 
             /**
-             * Définit la valeur de la propriété name.
+             * Définit la valeur de la propriété languageName.
              * 
              * @param value
              *     allowed object is
              *     {@link String }
              *     
              */
-            public void setName(String value) {
-                this.name = value;
+            public void setLanguageName(String value) {
+                this.languageName = value;
             }
 
             /**
-             * Obtient la valeur de la propriété level.
+             * Obtient la valeur de la propriété languageLevel.
              * 
              * @return
              *     possible object is
              *     {@link String }
              *     
              */
-            public String getLevel() {
-                return level;
+            public String getLanguageLevel() {
+                return languageLevel;
             }
 
             /**
-             * Définit la valeur de la propriété level.
+             * Définit la valeur de la propriété languageLevel.
              * 
              * @param value
              *     allowed object is
              *     {@link String }
              *     
              */
-            public void setLevel(String value) {
-                this.level = value;
+            public void setLanguageLevel(String value) {
+                this.languageLevel = value;
             }
 
         }
