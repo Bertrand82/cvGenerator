@@ -1,0 +1,15 @@
+bg\cv\model\Cv$Educations.class
+bg\cv\model\Cv$Experiences$Experience$Tasks.class
+bg\cv\model\Cv$Languages.class
+bg\cv\model\Cv$Languages$Language.class
+bg\cv\model\ObjectFactory.class
+bg\cv\model\Cv$EtatCivil$Address.class
+bg\cv\model\Cv$Educations$Education.class
+bg\cv\model\Cv$Skills.class
+bg\cv\model\Cv$Experiences$Experience.class
+bg\cv\model\Cv$Experiences.class
+bg\cv\model\Cv$EtatCivil.class
+bg\cv\model\Cv$Skills$Skill.class
+bg\cv\model\Cv$Experiences$Experience$Location.class
+bg\cv\model\Cv$Experiences$Experience$Company.class
+bg\cv\model\Cv.class

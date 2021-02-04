@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="src/main/ressources/xsd/cv.xsd">
+	<title>Expert Java et J2EE</title>
+	<etatCivil>
+		<name>Guiral</name>
+		<first-name>Bertrand</first-name>
+		<date-of-birth>26/08/1958 </date-of-birth>
+		<photo-path>images/bertrand.jpg</photo-path>
+		<telephon>0682426361</telephon>
+		<email>bertrand.guiral@gmail.com</email>
+
+		<address>
+			<ligne1>2 rue Cariben</ligne1>
+			<ligne2></ligne2>
+			<city>Montpezat de Quercy</city>
+			<zipCode>82270</zipCode>
+			<country>France</country>
+		</address>
+	</etatCivil>
+</cv>
+

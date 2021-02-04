@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+
+	<title>Expert Java et J2EE</title>
+	<etatCivil>
+		<nom>Guiral</nom>
+		<prenom>Bertrand</prenom>
+		<telephone>0682426361</telephone>
+		<email>bertrand.guiral@gmail.com</email>
+		<adresse>
+			<ligne1>2 Rue Cariben</ligne1>
+			<ligne2></ligne2>
+			<city>Montpezat de Quercy</city>
+			<zipCode>82270</zipCode>
+			<country>France</country>
+		</adresse>
+
+	</etatCivil>
+	<formations>
+		<formation>
+			<diplome>Ingénieur</diplome>
+			<school>Sup'aéro</school>
+			<year>1985</year>
+		</formation>
+	</formations>
+	<languages>
+		<language>
+			<name>Anglais</name>
+			<level>3</level>
+		</language>
+	</languages>
+	<skills>
+			<skillLabel>Framework</skillLabel>		
+			<skill nivel="5">java </label>			
+			<skill nivel="5">Spring </label>
+			<skill nivel="5">Hibernate </label>
+			<skill nivel="5">j2ee </label>			
+			<skill nivel="5">javapoet </label>
+	</skills>
+	<skills>
+			<skillLabel>Framework</skillLabel>		
+			<skill nivel="5">java </label>			
+			<skill nivel="5">Spring </label>
+			<skill nivel="5">Hibernate </label>
+			<skill nivel="5">j2ee </label>			
+			<skill nivel="5">javapoet </label>
+	</skills>
+	<skills>
+			<skillLabel>Framework</skillLabel>		
+			<skill nivel="5">java </label>			
+			<skill nivel="5">Spring </label>
+			<skill nivel="5">Hibernate </label>
+			<skill nivel="5">j2ee </label>			
+			<skill nivel="5">javapoet </label>
+	</skills>
+
+	
+
+</cv>

@@ -1,0 +1,187 @@
+Bertrand Guiral
+
+2 rue Cariben
+82270  Montpezat de Quercy
+
+bertrand.guiral@gmail.com
+0682426361
+
+
+		EXPERT JAVA ET J2EE
+	FORMATION
+Ingénieur Sup'aéro  1985
+
+
+	COMPÉTENCES
+Expertise : java, j2ee.
+Outils : Eclipse, Maven.
+Frameworks : Spring, Spring Boot, Hibernate, Jackson, Jasper.
+Technologies : Android, Traitement d'images.
+Notions : angular, react, javascript, bpmn.
+
+
+	EXPERIENCES ET PRINCIPALES RÉALISATION
+   
+	1/12/2020 AU 31/01/2021  PERSO  : CONCEPTEUR-DÉVELOPPEUR D'UNE APPLICATION ANDROID
+			
+Maintenance (réécriture) d'une application que j'ai développé en 2015. Prise en compte des évolutions de l'ergocompanyNameie conseillée pour les applis  embarquées(Gestion des annotations ). Chaque appel téléphonique ou sms est enregistré dans l’agenda (typiquement l’agenda google de l’utilisateur, mais peut être aussi un agenda collectif et partagé), avec éventuellement une annotation rajoutée par l'utilisateur. Cet agenda fait office de base de données répartie et synchronisée.
+Des écrans de consultation de l’historique permettent de consulter les appels à la façon d’un crm (Customer Relationship Management).
+Technologies : Java, Android, android studio, apis google
+
+   
+	1/02/2019 AU 30/11/2020  IMSA  : CONCEPTEUR-DÉVELOPPEUR J2EE
+Gestion des "feuilles maladies" de la sécurité sociale
+	 - Réalisation d’une application j2ee, avec les standards iMSA,  permettant d’alimenter la GED (Gestion Electronique des Documents)  de MSA par des documents provenant d'une autre caisse (CFE Caisses des Français Expatriés). L'application est passé en prod en respectant les délais.
+	 - Maintenance des applications existantes (Migration jboss, Corrections SONAR, corrections applicatives, changement de versions de librairies).
+	 - Au sein d’une équipe scrum, réalisation d’un POC pour le compte de la CNAM (Caisse Nationale d’Assurance Maladie) permettant le traitement des feuilles d’assurance maladie (Intégration d’un BRMS - Business Rules Management System). Je m’occupais de la partie java.
+Technologies : java, jboss, maven, jenkins, hibernate, uml, spring
+
+   
+	1/09/2018 AU 30/12/2018  GFI POUR AÉROPORT DE PARIS   : DÉVELOPPEUR CONCEPTEUR JAVA
+Réalisation d’un POC du Système d’companyInfosrmation de l’aéroport de Paris.
+Génération automatique d’une application Spring Boot à partir d’une modélisation uml des données. 
+L’application et les bases de données devait atteindre certains critères de redondances de sécurité (jwt Json Web Token) et être re-déployé sur AWS (Amazon) tous les jours.
+L’ensemble (génération de l’appli, instanciation et déploiement ) était automatique.
+Une évaluation des performances a été faites par le client (Changement du modèle de données, performances globales, tests d’intégrations, tableau de bord).
+Technologies : Spring boot, javapoet, jackson,acceleo, maven , aws, mariaDB
+
+   
+	1/04/2019 AU 30/08/2019  AIR FRANCE  : DÉVELOPPEUR CONCEPTEUR JAVA
+Participation à la conception et à la réalisation d’une application web. J’avais en charge la prise en compte de la partie sécurité (jwt), avec l’intégration dans le système d’authentification de l’company.
+Technologies :  Spring boot, hibernate, Angular 4, maven, java 8, Swagger, JUnit,  Mockito, Jackson, lombok, scrum
+			
+
+   
+	1/12/2016 AU 1/03/2018  IMSA  : DÉVELOPPEUR CONCEPTEUR JAVA
+	 - Retro engineering et portage d'une application  écrite en C  (application "Saga") en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de l'industrialisation.
+	 - Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'authentification unique et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une extension chrome et des api citrix.
+Technologies : Angular, java, Api citrix, javascript, extension chrome, JNA (Java Native Acces).
+
+   
+	1/02/2015 AU 1/09/2016  BULL ATOS POUR MINISTÈRE DE LA DÉFENSE  : DÉVELOPPEUR CONCEPTEUR JAVA
+Maintenance et évolution de l'application SIGALE (Système d'companyInfosrmation, de Gestion et d'Administration des Licences d'Exportation).
+	 - Développement d'un POC pour une nouvelle architecture
+	 - Maintenance corrective et évolutive
+	 - Support chez le client , pour investigations
+Technologies : Java, J2EE, JSF, Spring, Hibernate, jasper , BPMN
+
+   
+	01/08/2012 AU 30/12/2014  STERIA  : DÉVELOPPEUR CONCEPTEUR JAVA
+Maintenance et évolution d’une application distribuée (java, j2ee, web services, client lourd) de gestions des cartes électroniques dans le milieu spatial.
+	 - Mise en place de l'environnement de développement et d'intégration continue.
+	 - Maintenance corrective et évolutive
+Technologies :  java, j2ee, web services,  swing, jnlp, maven.
+			
+
+   
+	1/12/2011 AU 1/07/2012  SOPRA NANTES, EGILIA, BOOMERANG CONSULTING  : FORMATEUR
+Pour le compte de divers organismes de formation, j'étais formateur essentiellement en java
+
+   
+	15/10/2011 AU 30/12/2011  SOGETI POUR AIRBUS   : DÉVELOPPEUR CONCEPTEUR JAVA
+Renfort d’une équipe en phase de livraison. Participation à la réalisation d’ une application embarquée sur des avions de lignes dans différents environnements
+Tuning de la jvm pour rentrer dans les contraintes de production.
+Technologies :  Java, osgi (plateforme knopflerfish) , jboss,  swing, spring.
+
+   
+	15/06/2011 AU 14/10/2011  AMADEUS  : DÉVELOPPEUR CONCEPTEUR JAVA
+Amadeus souhaitait disposer d'une alternative aux solutions Oracle de clusterisation et de partage des sessions de serveurs d'application
+Etude et prototypage de l’intégration d’un cache distribué (Infinispan de JBoss) pour le partage des sessions d’un serveur d’application (WebLogic).
+Technologies :  Java,weblogic, infinispan, j2ee
+
+   
+	24/04/2011 AU 10/06/2011  SOPRA  : FORMATEUR GÉNIE LOGICIEL
+Dans le cadre de la conversion de jeunes diplômés aux métiers du logiciel, formateur pour une session de formation Java/J2EE pour Sopra Nantes
+Préparation des cours et animation d'un stage de 12 personnes.
+Technologies : java, j2ee, sql
+
+   
+	7/02/2011 AU 1/04/2011  SOPRA  : DÉVELOPPEUR CONCEPTEUR JAVA
+Renforcement  d’une équipe en phase de livraison d’un projet Spring batch pour la Commission Européenne.
+Investigation et correction d'acompanyNamealies
+Technologies : Java, spring , spring Batch, Multi thread
+
+   
+	7/02/2011 AU 1/04/2011  MPPC TECHNOLOGY  : DÉVELOPPEUR CONCEPTEUR JAVA
+MPPC était une startup dans le domaine de l'énergie photovoltaïque. Pour extraire le maximum d'énergie de panneaux solaires ,un  MPPT (Maximum Power Point Tracking) innovant était proposé. J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.
+	 - Conception et réalisation d'une application de monitoring
+	 - Participations aux campagnes de mesure et d'étude des performances.
+Technologies : Java, spring ,  gwt, appengine
+
+   
+	01/01/2010 AU 30/05/2010  SOPRA ALBI  : DÉVELOPPEUR CONCEPTEUR JAVA
+Chargé de la maintenance et des évolutions d’un logiciel de simulation et de commande de crédit bail, puis d’une application de gestion des risques pour la banque Crédit Agricole.
+	 - Maintenance et évolution d'un logiciel de simulation et de commande de crédit bail
+	 - Maintenance d’une application de gestion des risques pour la banque Crédit Agricole.
+Technologies : java, javascript, uml
+
+   
+	01/08/2009 AU 31/12//2009  CELAD  : DÉVELOPPEUR CONCEPTEUR JAVA
+Développement d'une application de vente de tickets restaurants
+	 - 
+	 - 
+Technologies : Websphère,framework seam de jboss (spring, jsf et hibernate), java, j2ee
+
+   
+	01/01/2009 AU 31/07/2009  CELAD POUR NATIXIS  : DÉVELOPPEUR CONCEPTEUR JAVA , CHEF DE PROJET
+Natixis souhaitait une nouvelle gestion  de son catalogue Produits
+Responsable technique des développements au sein de l’équipe projet COREGE (6 personnes).
+Le projet a été terminé en temps et en heure.
+			
+	 - Développement java
+	 - Tentative de mise en place d'une méthode scrum
+Technologies : java, j2ee , struts, websphere
+
+   
+	01/01/2007 AU 31/12/2009    : FORMATEUR
+Formateur pour le compte d'organismes de formation professionnels
+	 - Formation Java  (Hibernate, Spring, eclipse, subversion, maven, ant)
+	 - Formation SOA (Service Oriented Architecture) (Je donnais ce cours de 4 jours une fois par mois à GEMALTO )
+	 - Formation Web-Services
+	 - Formation html – css – javascript
+	 - Formation EJB 3
+Technologies : Java, web service, html, css, soa
+
+   
+	01/08/2002 AU 30/10/2006  INDEX MULTIMÉDIA  : DÉVELOPPEUR CONCEPTEUR JAVA
+	 - Développement d’une application de messagerie embarquée sur téléphone portable.
+	 - Développement d’une infrastructure de cache et de serveur d’images pour les besoins de la société  (Architecture  de type RESTful)
+	 - InterConnexion avec  le SI de Bouygues Télécom  (Architecture SOA)
+	 - Intégration d’un framework  Nokia développé en Inde
+Technologies : Java, Tomcat, Ant, Maven, SOA, Web Services.
+
+   
+	01/01/2001 AU 30/06/2002  LYRA-NETWORK  : DÉVELOPPEUR CONCEPTEUR JAVA
+Premier salarié d'une startup qui est devenue leader mondial de son activité.
+Conception et réalisation d’un routeur RNIS/X25 pour une application monétique
+Technologies : Java, RNIS, X25
+
+   
+	01/05/1999 AU 30/02/2000  VOXSURF  : DÉVELOPPEUR CONCEPTEUR JAVA
+La société était une startup qui développait une application de messagerie pour téléphone mobile.
+	 - Développement d'applications de consultation de messagerie pour différents media : web, telephone, vocal
+	 - 
+Technologies : java, jrun, voxml
+
+   
+	01/11/1998 AU 30/04/1999  OZA (OBJET DE A À Z)  : DÉVELOPPEUR CONCEPTEUR JAVA
+Développement d'unne applications de gestion de notes de frais
+
+   
+	01/11/1992 AU 01/11/1998    : ARTISAN SOUFFLEUR DE VERRE
+
+   
+	01/09/1985 AU 30/10/1992  THOMSON-CSF  : INGÉNIEUR
+	 - Responsable technique d'un système d'arme
+	 - Responsable des spécifications des logiciels
+	 - Responsable des essais et des tirs
+	 - Participation à l'intégration de capteurs infrarouge (Traitement d'images)
+	 - Participation aux déploiements opérationnels en Arabie Saoudite
+	 - Participation à des essais au Nouveau-Mexique (Usa)
+	 - Participation à l'adaptation de Kourou à Ariane V et à la navette Hermès
+	 - Responsable technique de la réponse à un appel d'offre d'Arabsat
+	 - Responsable technique de la réponse à un appel d'offre pour le CNES (Liaison fibre Toulouse / Aussaguel)
+	 - 
+Technologies : Radar et Hyper fréquences, Traitement d'images, Logiciel temps réel, Instrumentation, Automatisme (Pilotage et guidage de missiles, asservissement de tourelles), algorithmie ... 
+
+
