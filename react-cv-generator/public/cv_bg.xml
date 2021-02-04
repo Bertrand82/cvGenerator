@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="src/main/ressources/xsd/cv.xsd">
+
+	<title>Expert Java et J2EE</title>
+	<etatCivil>
+		<name>Guiral</name>
+		<first-name>Bertrand</first-name>
+		<date-of-birth>26/08/1958</date-of-birth>
+		<photo-path>images/bertrand.jpg</photo-path>
+		<telephon>0682426361</telephon>
+		<email>bertrand.guiral@gmail.com</email>
+		<address>
+			<ligne1>2 rue Cariben</ligne1>
+			<ligne2></ligne2>
+			<city>Montpezat de Quercy</city>
+			<zipCode>82270</zipCode>
+			<country>France</country>
+		</address>
+
+	</etatCivil>
+	<educations>
+		<education>
+			<diploma>Ingénieur</diploma>
+			<school>Sup'aéro</school>
+			<year>1985</year>
+		</education>
+	</educations>
+	<languages>
+		<language>
+		
+			<languageName>Anglais</languageName>
+			<languageLevel>Courant</languageLevel>
+		</language>
+	</languages>
+	<skills>
+			<skillLabel>Expertise</skillLabel>		
+			<skill nivel="5">java </skill>			
+			<skill nivel="5">j2ee </skill>			
+	</skills>
+	<skills>
+			<skillLabel>Outils</skillLabel>		
+			<skill nivel="5">Eclipse </skill>			
+			<skill nivel="5">Maven </skill>			
+	</skills>
+	<skills>
+			<skillLabel>Frameworks</skillLabel>		
+			<skill nivel="5">Spring</skill>			
+			<skill nivel="5">Spring Boot</skill>			
+			<skill nivel="5">Hibernate</skill>			
+			<skill nivel="5">Jackson</skill>			
+			<skill nivel="5">Jasper</skill>			
+	</skills>
+	
+	<skills>
+			<skillLabel>Technologies</skillLabel>		
+			<skill nivel="5">Android</skill>			
+			<skill nivel="3">Traitement d'images</skill>			
+	</skills>
+	<skills>
+			<skillLabel>Notions</skillLabel>		
+			<skill nivel="1">angular</skill>			
+			<skill nivel="1">react</skill>			
+			<skill nivel="1">javascript</skill>			
+			<skill nivel="1">bpmn</skill>			
+	</skills>
+	
+	<experiences>
+		<experience>
+			<experienceTitle>Concepteur-développeur d'une application Android
+			</experienceTitle>
+			<dateStart>1/12/2020</dateStart>
+			<dateEnd>31/01/2021</dateEnd>
+			<typeOfContract>Freelance</typeOfContract>
+			<location>
+				<city>Montpezat de Quercy</city>
+				<country>France</country>
+			</location>
+			<company>
+				<companyName>Perso</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Maintenance (réécriture) d'une application que j'ai développé en 2015. Prise en compte des évolutions de l'ergocompanyNameie conseillée pour les applis  embarquées(Gestion des annotations ). Chaque appel téléphonique ou sms est enregistré dans l’agenda (typiquement l’agenda google de l’utilisateur, mais peut être aussi un agenda collectif et partagé), avec éventuellement une annotation rajoutée par l'utilisateur. Cet agenda fait office de base de données répartie et synchronisée.
+Des écrans de consultation de l’historique permettent de consulter les appels à la façon d’un crm (Customer Relationship Management).</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<technos>Java, Android, android studio, apis google</technos>
+
+		</experience>
+
+		<experience>
+			<experienceTitle>Concepteur-développeur J2EE</experienceTitle>
+			<typeOfContract>Freelance</typeOfContract>
+			<dateStart>1/02/2019</dateStart>
+			<dateEnd>30/11/2020</dateEnd>
+			<location>
+				<city>Montauban</city>
+				<country>France</country>
+			</location>
+			<company>
+				<companyName>iMSA</companyName>
+				<companyInfos>Mutuelle Sociale Agricole</companyInfos>
+			</company>
+			<context>Gestion des "feuilles maladies" de la sécurité sociale</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Réalisation d’une application j2ee, avec les standards iMSA,  permettant d’alimenter la GED (Gestion Electronique des Documents)  de MSA par des documents provenant d'une autre caisse (CFE Caisses des Français Expatriés). L'application est passé en prod en respectant les délais.
+				</task>
+				<task> Maintenance des applications existantes (Migration jboss, Corrections SONAR, corrections applicatives, changement de versions de librairies).
+				</task>
+				<task>Au sein d’une équipe scrum, réalisation d’un POC pour le compte de la CNAM (Caisse Nationale d’Assurance Maladie) permettant le traitement des feuilles d’assurance maladie (Intégration d’un BRMS - Business Rules Management System). Je m’occupais de la partie java.
+				</task>
+			</tasks>
+			<technos>java, jboss, maven, jenkins, hibernate, uml, spring</technos>
+		</experience>
+
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freeLance</typeOfContract>
+			<dateStart>1/09/2018</dateStart>
+			<dateEnd>30/12/2018</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country>France</country>
+			</location>
+			<company>
+				<companyName>GFI pour Aéroport de Paris </companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Réalisation d’un POC du Système d’companyInfosrmation de l’aéroport de Paris.
+Génération automatique d’une application Spring Boot à partir d’une modélisation uml des données. 
+L’application et les bases de données devait atteindre certains critères de redondances de sécurité (jwt Json Web Token) et être re-déployé sur AWS (Amazon) tous les jours.
+L’ensemble (génération de l’appli, instanciation et déploiement ) était automatique.
+Une évaluation des performances a été faites par le client (Changement du modèle de données, performances globales, tests d’intégrations, tableau de bord).</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<technos>Spring boot, javapoet, jackson,acceleo, maven , aws, mariaDB</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>1/04/2019</dateStart>
+			<dateEnd>30/08/2019</dateEnd>
+			<location>
+				<city>Air France</city>
+				<country>France</country>
+			</location>
+			<company>
+				<companyName>Air France</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Participation à la conception et à la réalisation d’une application web. J’avais en charge la prise en compte de la partie sécurité (jwt), avec l’intégration dans le système d’authentification de l’company.
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<technos> Spring boot, hibernate, Angular 4, maven, java 8, Swagger, JUnit,  Mockito, Jackson, lombok, scrum
+			</technos>
+		</experience>
+
+
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>1/12/2016</dateStart>
+			<dateEnd>1/03/2018</dateEnd>
+			<location>
+				<city>Montauban</city>
+				<country>France</country>
+			</location>
+			<company>
+				<companyName>iMSA</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context></context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Retro engineering et portage d'une application  écrite en C  (application "Saga") en web (angular). Conception et réalisation d'une maquette de l'application web, réalisation d'un cahier des charges, suivi d'un appel d'offre et de l'industrialisation.</task>
+				<task>Retro engineering d'une application encapsulant un navigateur IE8, des clients lourds (écrits en C) et gérant l'authentification unique et la gestion des cookies. Réalisation d'un poc web reprenant ces fonctions, avec une extension chrome et des api citrix.</task>
+			</tasks>
+			<technos>Angular, java, Api citrix, javascript, extension chrome, JNA (Java Native Acces).</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>1/02/2015</dateStart>
+			<dateEnd>1/09/2016</dateEnd>
+			<location>
+				<city>Marseille, Aix-en-Provence, Massy, Les Clayes-sous-Bois, Paris </city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Bull Atos pour ministère de la Défense</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Maintenance et évolution de l'application SIGALE (Système d'companyInfosrmation, de Gestion et d'Administration des Licences d'Exportation). 
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Développement d'un POC pour une nouvelle architecture</task>
+				<task>Maintenance corrective et évolutive</task>
+				<task>Support chez le client , pour investigations</task>
+			</tasks>
+			<technos>Java, J2EE, JSF, Spring, Hibernate, jasper , BPMN</technos>
+		</experience>
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>01/08/2012</dateStart>
+			<dateEnd>30/12/2014</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Steria</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Maintenance et évolution d’une application distribuée (java, j2ee, web services, client lourd) de gestions des cartes électroniques dans le milieu spatial.</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Mise en place de l'environnement de développement et d'intégration continue. </task>
+				<task>Maintenance corrective et évolutive</task>
+			</tasks>
+			<technos> java, j2ee, web services,  swing, jnlp, maven.
+			</technos>
+		</experience>
+		<experience>
+			<experienceTitle>Formateur</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>1/12/2011</dateStart>
+			<dateEnd>1/07/2012</dateEnd>
+			<location>
+				<city>Nantes, Lille, PAris, Genève, La Ciotat</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Sopra Nantes, Egilia, Boomerang Consulting</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Pour le compte de divers organismes de formation, j'étais formateur essentiellement en java</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<technos></technos>
+		</experience>
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract></typeOfContract>
+			<dateStart>15/10/2011</dateStart>
+			<dateEnd>30/12/2011</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Sogeti pour airbus </companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Renfort d’une équipe en phase de livraison. Participation à la réalisation d’ une application embarquée sur des avions de lignes dans différents environnements
+			</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Tuning de la jvm pour rentrer dans les contraintes de production.</task>
+			</tasks>
+			<technos> Java, osgi (plateforme knopflerfish) , jboss,  swing, spring.</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>15/06/2011</dateStart>
+			<dateEnd>14/10/2011</dateEnd>
+			<location>
+				<city>Sophia Antipolis</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Amadeus</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Amadeus souhaitait disposer d'une alternative aux solutions Oracle de clusterisation et de partage des sessions de serveurs d'application</context>
+			<myGoal>Etude et prototypage de l’intégration d’un cache distribué (Infinispan de JBoss) pour le partage des sessions d’un serveur d’application (WebLogic).</myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<technos> Java,weblogic, infinispan, j2ee</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Formateur génie logiciel</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>24/04/2011</dateStart>
+			<dateEnd>10/06/2011</dateEnd>
+			<location>
+				<city>Nantes</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Sopra</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Dans le cadre de la conversion de jeunes diplômés aux métiers du logiciel, formateur pour une session de formation Java/J2EE pour Sopra Nantes</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Préparation des cours et animation d'un stage de 12 personnes.</task>
+			</tasks>
+			<technos>java, j2ee, sql</technos>
+		</experience>
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>7/02/2011</dateStart>
+			<dateEnd>1/04/2011</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Sopra</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Renforcement  d’une équipe en phase de livraison d’un projet Spring batch pour la Commission Européenne.</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Investigation et correction d'acompanyNamealies</task>
+			</tasks>
+			<technos>Java, spring , spring Batch, Multi thread</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>7/02/2011</dateStart>
+			<dateEnd>1/04/2011</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>MPPC Technology</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>MPPC était une startup dans le domaine de l'énergie photovoltaïque. Pour extraire le maximum d'énergie de panneaux solaires ,un  MPPT (Maximum Power Point Tracking) innovant était proposé. J'avais en charge la conception et la réalisation de l'environnement de mesure et de surveillance.</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Conception et réalisation d'une application de monitoring</task>
+				<task>Participations aux campagnes de mesure et d'étude des performances.</task>
+			</tasks>
+			<technos>Java, spring ,  gwt, appengine</technos>
+		</experience>
+		
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract></typeOfContract>
+			<dateStart>01/01/2010</dateStart>
+			<dateEnd>30/05/2010</dateEnd>
+			<location>
+				<city>Albi</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Sopra Albi</companyName>
+				<companyInfos>Pour Crédit Agricole</companyInfos>
+			</company>
+			<context>Chargé de la maintenance et des évolutions d’un logiciel de simulation et de commande de crédit bail, puis d’une application de gestion des risques pour la banque Crédit Agricole.</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Maintenance et évolution d'un logiciel de simulation et de commande de crédit bail</task>
+				<task>Maintenance d’une application de gestion des risques pour la banque Crédit Agricole.</task>
+			</tasks>
+			<technos>java, javascript, uml</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>01/08/2009</dateStart>
+			<dateEnd>31/12//2009</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Celad</companyName>
+				<companyInfos>Pour Natixis</companyInfos>
+			</company>
+			<context>Développement d'une application de vente de tickets restaurants</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+				<task></task>
+			</tasks>
+			<technos>Websphère,framework seam de jboss (spring, jsf et hibernate), java, j2ee</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java , Chef de projet</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>01/01/2009</dateStart>
+			<dateEnd>31/07/2009</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Celad pour Natixis</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Natixis souhaitait une nouvelle gestion  de son catalogue Produits </context>
+			<myGoal>Responsable technique des développements au sein de l’équipe projet COREGE (6 personnes).
+Le projet a été terminé en temps et en heure.
+			</myGoal>
+			<tasks>
+				<task>Développement java</task>
+				<task>Tentative de mise en place d'une méthode scrum</task>
+			</tasks>
+			<technos>java, j2ee , struts, websphere</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Formateur</experienceTitle>
+			<typeOfContract>freelance</typeOfContract>
+			<dateStart>01/01/2007</dateStart>
+			<dateEnd>31/12/2009</dateEnd>
+			<location>
+				<city></city>
+				<country></country>
+			</location>
+			<company>
+				<companyName></companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Formateur pour le compte d'organismes de formation professionnels</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Formation Java  (Hibernate, Spring, eclipse, subversion, maven, ant)</task>
+				<task>Formation SOA (Service Oriented Architecture) (Je donnais ce cours de 4 jours une fois par mois à GEMALTO )</task>
+				<task>Formation Web-Services</task>
+				<task>Formation html – css – javascript</task>
+				<task>Formation EJB 3</task>
+
+			</tasks>
+			<technos>Java, web service, html, css, soa</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
+			<dateStart>01/08/2002</dateStart>
+			<dateEnd>30/10/2006</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Index Multimédia</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context></context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Développement d’une application de messagerie embarquée sur téléphone portable.</task>
+				<task>Développement d’une infrastructure de cache et de serveur d’images pour les besoins de la société  (Architecture  de type RESTful)</task>
+				<task>InterConnexion avec  le SI de Bouygues Télécom  (Architecture SOA)</task>
+				<task>Intégration d’un framework  Nokia développé en Inde</task>
+			</tasks>
+			<technos>Java, Tomcat, Ant, Maven, SOA, Web Services.</technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
+			<dateStart>01/01/2001</dateStart>
+			<dateEnd>30/06/2002</dateEnd>
+			<location>
+				<city>Toulouse</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Lyra-Network</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>Premier salarié d'une startup qui est devenue leader mondial de son activité.</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Conception et réalisation d’un routeur RNIS/X25 pour une application monétique</task>
+
+			</tasks>
+			<technos>Java, RNIS, X25</technos>
+		</experience>
+
+
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
+			<dateStart>01/05/1999</dateStart>
+			<dateEnd>30/02/2000</dateEnd>
+			<location>
+				<city>Dublin puis Londres</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Voxsurf</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context>La société était une startup qui développait une application de messagerie pour téléphone mobile.</context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Développement d'applications de consultation de messagerie pour différents media : web, telephone, vocal</task>
+				<task></task>
+			</tasks>
+			<technos>java, jrun, voxml</technos>
+		</experience>
+		
+		<experience>
+			<experienceTitle>Développeur Concepteur Java</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
+			<dateStart>01/11/1998</dateStart>
+			<dateEnd>30/04/1999</dateEnd>
+			<location>
+				<city>Paris</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>OZA (Objet de A à Z)</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context></context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Développement d'unne applications de gestion de notes de frais</task>
+			</tasks>
+			<technos></technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Artisan Souffleur de verre</experienceTitle>
+			<typeOfContract>Indépendant</typeOfContract>
+			<dateStart>01/11/1992</dateStart>
+			<dateEnd>01/11/1998</dateEnd>
+			<location>
+				<city></city>
+				<country></country>
+			</location>
+			<company>
+				<companyName></companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context></context>
+			<myGoal></myGoal>
+			<tasks>
+				<task></task>
+			</tasks>
+			<technos></technos>
+		</experience>
+
+		<experience>
+			<experienceTitle>Ingénieur</experienceTitle>
+			<typeOfContract>cdi</typeOfContract>
+			<dateStart>01/09/1985</dateStart>
+			<dateEnd>30/10/1992</dateEnd>
+			<location>
+				<city>Bagneux, Biscarosse, Arabie Saoudite, Alamogordo (usa) ,
+					Kourou</city>
+				<country></country>
+			</location>
+			<company>
+				<companyName>Thomson-csf</companyName>
+				<companyInfos></companyInfos>
+			</company>
+			<context></context>
+			<myGoal></myGoal>
+			<tasks>
+				<task>Responsable technique d'un système d'arme</task>
+				<task>Responsable des spécifications des logiciels</task>
+				<task>Responsable des essais et des tirs</task>
+				<task>Participation à l'intégration de capteurs infrarouge (Traitement d'images)</task>
+				<task>Participation aux déploiements opérationnels en Arabie Saoudite</task>
+				<task>Participation à des essais au Nouveau-Mexique (Usa)</task>
+				<task>Participation à l'adaptation de Kourou à Ariane V et à la navette Hermès </task>
+				<task>Responsable technique de la réponse à un appel d'offre d'Arabsat</task>
+				<task>Responsable technique de la réponse à un appel d'offre pour le CNES (Liaison fibre Toulouse / Aussaguel)</task>
+				<task></task>
+			</tasks>
+			<technos>Radar et Hyper fréquences, Traitement d'images, Logiciel temps réel, Instrumentation, Automatisme (Pilotage et guidage de missiles, asservissement de tourelles), algorithmie ... </technos>
+		</experience>
+
+
+	</experiences>
+
+</cv>
